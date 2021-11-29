@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/miyagawatakuya/Desktop/G's Task/C#/paiza/paiza_C/paiza_C/paiza_C.csproj": {}
+  },
+  "projects": {
+    "/Users/miyagawatakuya/Desktop/G's Task/C#/paiza/paiza_C/paiza_C/paiza_C.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/miyagawatakuya/Desktop/G's Task/C#/paiza/paiza_C/paiza_C/paiza_C.csproj",
+        "projectName": "paiza_C",
+        "projectPath": "/Users/miyagawatakuya/Desktop/G's Task/C#/paiza/paiza_C/paiza_C/paiza_C.csproj",
+        "packagesPath": "/Users/miyagawatakuya/.nuget/packages/",
+        "outputPath": "/Users/miyagawatakuya/Desktop/G's Task/C#/paiza/paiza_C/paiza_C/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/miyagawatakuya/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
