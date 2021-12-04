@@ -11,7 +11,9 @@ namespace paiza_C
         {
             //C005.test();
             //C006.test();
-            C010.test();
+            //C010.test();
+            //D196.test();
+            C101.test();
 
         }
     }
