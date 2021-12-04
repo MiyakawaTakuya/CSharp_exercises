@@ -10,7 +10,8 @@ namespace paiza_C
         static void Main()
         {
             //C005.test();
-            C006.test();
+            //C006.test();
+            C010.test();
 
         }
     }
