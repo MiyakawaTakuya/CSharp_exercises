@@ -1,20 +1,22 @@
 ﻿<Properties StartupConfiguration="{50725F40-8F75-483D-9B22-137FB4E1CD3E}|Default">
   <MonoDevelop.Ide.ItemProperties.paiza__C PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="paiza_C/D196.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="paiza_C/Program.cs">
     <Files>
-      <File FileName="paiza_C/Program.cs" Line="15" Column="27" />
-      <File FileName="paiza_C/C005.cs" />
-      <File FileName="paiza_C/C006.cs" />
-      <File FileName="paiza_C/C010.cs" />
-      <File FileName="paiza_C/D196.cs" Line="16" Column="36" />
-      <File FileName="paiza_C/C101.cs" Line="14" Column="29" />
+      <File FileName="paiza_C/Program.cs" Line="17" Column="27" />
+      <File FileName="paiza_C/C005.cs" Line="9" Column="9" />
+      <File FileName="paiza_C/C006.cs" Line="9" Column="13" />
+      <File FileName="paiza_C/C010.cs" Line="8" Column="68" />
+      <File FileName="paiza_C/C101.cs" Line="8" Column="1" />
+      <File FileName="paiza_C/D103.cs" Line="13" Column="36" />
+      <File FileName="paiza_C/C086.cs" Line="14" Column="1" />
+      <File FileName="paiza_C/D031.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="paiza_C" expanded="True">
             <Node name="paiza_C" expanded="True">
-              <Node name="D196.cs" selected="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
