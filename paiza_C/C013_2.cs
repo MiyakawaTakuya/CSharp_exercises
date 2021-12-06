@@ -5,7 +5,7 @@ namespace paiza_C
     {
         internal static void test()
         {
-            string n = Console.ReadLine(); //嫌いな数字
+            string n = Console.ReadLine(); 
             int m = int.Parse(Console.ReadLine()); //病室の数
             string r_i; //病室の番号 あえてstring
             int count = 0; //部屋に嫌いな数字だったときのカウンター
