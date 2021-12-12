@@ -31,7 +31,8 @@ namespace paiza_C
             //C014.test();
             //B095.test();
             //C049.test();
-            C017.test();
+            //C017.test();
+            C089.test();
         }
     }
 }
