@@ -24,14 +24,16 @@ namespace paiza_C
             for (h = 0; h < H; h++)   //１行目、２行目、３行目...と順に処理していく
             {
                 string S = Console.ReadLine();
+                char[] Sarray = S.ToCharArray();  //文字列をcha型配列にする
+
                 //string[] Array_h = Console.ReadLine().Trim().Split(' ');
                 for (w = 0; w < W; w++)  //１列目、２列目、３列目...と順に処理していく
                 {
-                    if (S[w] == '○')
+                    if (Sarray[w] == 'o')
                     {
                         array_01[h, w] = 1;
                     }
-                    else if(S[w] == '×')
+                    else if(Sarray[w] == 'x')
                     {
                         array_01[h, w] = 0;
                     }
@@ -48,7 +50,7 @@ namespace paiza_C
                 }
             }
 
-            //それぞれの座標に値をかけていく
+            //それぞれの座標に値をかけていく。xのものは自然と0になっていく。
             for (h = 0; h < H; h++)   //１行目、２行目、３行目...と順に処理していく
             {
                 for (w = 0; w < W; w++)  //１列目、２列目、３列目...と順に処理していく
@@ -58,12 +60,13 @@ namespace paiza_C
                 }
             }
             Console.WriteLine(Sum);
-            //Console.WriteLine(array_x.Sum());
         }
     }
 }
+//受験結果 受験言語： C# 獲得ランク： Cランク スコア： 100点  211213  再チャレンジにてクリア
 
-//まずは法則性をつかむ
+
+//まずは法則性をつかむ　　→こんなの必要なかった
 //for (h = 0; h < H; h++)   //１行目、２行目、３行目...と順に処理していく
 //{
 //    for (w = 0; w < W; w++)  //１列目、２列目、３列目...と順に処理していく
