@@ -28,12 +28,12 @@ namespace paiza_C
             //C091.test();
             //C099.test();
             //C097.test();
-            //C014.test();
+            C014.test();
             //B095.test();
             //C049.test();
             //C017.test();
             //C089.test();
-            C040.test();
+            //C040.test();
 
         }
     }
