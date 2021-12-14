@@ -18,7 +18,7 @@ namespace paiza_C
 
                 if (d_i.Contains("3"))
                 {
-                    sum += Math.Floor(p_i * 0.03);
+                    sum += Math.Floor(p_i * 0.03);  //小数点切り捨て
                 }
                 else if (d_i.Contains("5"))
                 {

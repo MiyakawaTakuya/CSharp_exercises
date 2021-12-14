@@ -33,7 +33,7 @@ namespace paiza_C
             double ave = 0;  //降水確率の平均値を用意
             int sum = 0; //降水確率の平均値を出すときの合計値
             double minAve = 100;  //降水確率の平均値の最小値
-            int[] aveArray;  //降水確率の平均配列
+            //int[] aveArray;  //降水確率の平均配列
             var listAve = new List<double>();
             double[] arrayAve;
 
