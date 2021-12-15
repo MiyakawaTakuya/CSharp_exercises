@@ -38,7 +38,6 @@ namespace paiza_C
                 B = 0;
             }
             Console.WriteLine(A+ " " +B);
-
         }
     }
 }
