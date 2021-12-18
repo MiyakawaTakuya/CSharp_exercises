@@ -1,64 +1,110 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 //C018:何人前作れる？
 
 namespace paiza_C
 {
     public class C018
     {
+        //private static double howmany = 0;
+        //private static double howmanyPeple = 100;
+        //private static int match = 0;
+
         internal static void test()
         {
-            int n = int.Parse(Console.ReadLine());
-            string[,] recipes  = new string[n,2];  
             double howmany = 0;
             double howmanyPeple = 100;
             int match = 0;
+            int n = int.Parse(Console.ReadLine());
 
-            //必要な食材と数を２次元配列に格納していく
+            //必要な食材と数をDictionaryに格納していく
+            var recipes = new Dictionary<string, int>();  
             for (int i = 0; i < n; i++)
             {
                 string[] ArrayData = Console.ReadLine().Trim().Split(' ');
-                recipes[i, 0] = ArrayData[0];
-                recipes[i, 1] = ArrayData[1];
+                recipes.Add(ArrayData[0], int.Parse(ArrayData[1]));
             }
 
-            //手元にある食材と数を２次元配列に格納していく
+            //必要な食材と一致した場合にその個数から何人前かを記録していく
             int m = int.Parse(Console.ReadLine());
-            string[,] shokuzai = new string[m,2];
             for (int i = 0; i < m; i++)
             {
                 string[] ArrayData2 = Console.ReadLine().Trim().Split(' ');
-                shokuzai[i, 0] = ArrayData2[0];
-                shokuzai[i, 1] = ArrayData2[1];
-            }
-
-            //まず必要な食材が一致した場合にその個数を把握する
-            for (int p = 0; p < n; p++)  //必要な食材を軸に回すのでn
-            {
-                for (int q = 0; q < m; q++)  //食材の数だけまわすのでm
-                {
-                    if (recipes[p, 0] == shokuzai[q, 0])
+                if (recipes.ContainsKey(ArrayData2[0]))
+                { 
+                    howmany = int.Parse(ArrayData2[1]) / recipes[ArrayData2[0]] ;
+                    howmany = Math.Floor(howmany);  //小数点切り捨て
+                    match += 1;
+                    if (howmanyPeple > howmany) 
                     {
-                        //仮にこの食材だけで生成できる人数を算出しておく
-                        howmany = int.Parse(shokuzai[q, 1]) / int.Parse(recipes[p, 1]);
-                        howmany = Math.Floor(howmany);  //小数点切り捨て
-                        match += 1;  
-                        if (howmanyPeple > howmany)  //比較演算子 型の問題はなし？
-                        {
-                            howmanyPeple = howmany;
-                        }
+                        howmanyPeple = howmany; //最大公約数の最小値を格納していく
                     }
                 }
             }
-
-            if(match == n)  
+            
+            if (match == n)  //必要な食材が全て揃っていたら
             {
                 Console.WriteLine(howmanyPeple);
-            }else
+            }
+            else
             {
                 Console.WriteLine(0);
             }
-            //Console.WriteLine(howmanyPeple);
+
         }
+
+        //internal static void test2()
+        //{
+        //    int n = int.Parse(Console.ReadLine());
+        //    string[,] recipes  = new string[n,2];  
+
+        //    //必要な食材と数を２次元配列に格納していく
+        //    for (int i = 0; i < n; i++)
+        //    {
+        //        string[] ArrayData = Console.ReadLine().Trim().Split(' ');
+        //        recipes[i, 0] = ArrayData[0];
+        //        recipes[i, 1] = ArrayData[1];
+        //    }
+
+        //    //手元にある食材と数を２次元配列に格納していく
+        //    int m = int.Parse(Console.ReadLine());
+        //    string[,] shokuzai = new string[m,2];
+        //    for (int i = 0; i < m; i++)
+        //    {
+        //        string[] ArrayData2 = Console.ReadLine().Trim().Split(' ');
+        //        shokuzai[i, 0] = ArrayData2[0];
+        //        shokuzai[i, 1] = ArrayData2[1];
+        //    }
+
+        //    //まず必要な食材が一致した場合にその個数を把握する
+        //    for (int p = 0; p < n; p++)  //必要な食材を軸に回すのでn
+        //    {
+        //        for (int q = 0; q < m; q++)  //食材の数だけまわすのでm
+        //        {
+        //            if (recipes[p, 0] == shokuzai[q, 0])
+        //            {
+        //                //仮にこの食材だけで生成できる人数を算出しておく
+        //                howmany = int.Parse(shokuzai[q, 1]) / int.Parse(recipes[p, 1]);
+        //                howmany = Math.Floor(howmany);  //小数点切り捨て
+        //                match += 1;  
+        //                if (howmanyPeple > howmany)  //比較演算子 型の問題はなし？
+        //                {
+        //                    howmanyPeple = howmany;
+        //                }
+        //            }
+        //        }
+        //    }
+
+        //    if(match == n)  
+        //    {
+        //        Console.WriteLine(howmanyPeple);
+        //    }else
+        //    {
+        //        Console.WriteLine(0);
+        //    }
+        //    //Console.WriteLine(howmanyPeple);
+        //}
     }
 }
 
