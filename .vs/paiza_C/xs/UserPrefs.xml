@@ -1,23 +1,24 @@
 ﻿<Properties StartupConfiguration="{50725F40-8F75-483D-9B22-137FB4E1CD3E}|Default">
   <MonoDevelop.Ide.ItemProperties.paiza__C PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="paiza_C/C018.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="paiza_C/B004.cs">
     <Files>
-      <File FileName="paiza_C/Program.cs" Line="39" Column="26" />
+      <File FileName="paiza_C/Program.cs" Line="39" Column="28" />
       <File FileName="paiza_C/C091.cs" Line="1" Column="1" />
       <File FileName="paiza_C/C017.cs" Line="1" Column="1" />
       <File FileName="paiza_C/C092.cs" Line="13" Column="45" />
       <File FileName="paiza_C/C032.cs" Line="20" Column="39" />
       <File FileName="paiza_C/C098.cs" Line="44" Column="17" />
       <File FileName="paiza_C/C031.cs" Line="8" Column="9" />
-      <File FileName="paiza_C/C046.cs" Line="14" Column="1" />
-      <File FileName="paiza_C/C018.cs" Line="35" Column="1" NotebookId="1" />
+      <File FileName="paiza_C/C046.cs" Line="13" Column="44" />
+      <File FileName="paiza_C/C018.cs" Line="17" Column="39" />
+      <File FileName="paiza_C/B004.cs" Line="1" Column="14" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="paiza_C" expanded="True">
             <Node name="paiza_C" expanded="True">
-              <Node name="C018.cs" selected="True" />
+              <Node name="B004.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -32,6 +33,7 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/miyagawatakuya/G's Task/paiza/paiza_C/paiza_C/B095.cs" relfile="paiza_C/B095.cs" line="22" column="1" />
+      <Breakpoint file="/Users/miyagawatakuya/G's Task/paiza/paiza_C/paiza_C/C018.cs" relfile="paiza_C/C018.cs" line="36" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />

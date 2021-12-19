@@ -35,13 +35,13 @@ namespace paiza_C
             //C089.test();
             //C040.test();
             //C092.test();
-            C018.test();  //Dictionary
+            //C018.test();  //Dictionary
             //C018.test2();
             //C032.test();
             //C098.test();
             //C031.test();
             //C046.test();
-
+            B004.test();
         }
     }
 }
