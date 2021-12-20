@@ -47,7 +47,8 @@ namespace paiza_C
             //C084.test();
             //C084.test2();  //別で関数を用意
             //C090.test();
-            C023.test();
+            //C023.test();
+            //B101.test();  //Array.Sort()    int[] intArray = strArray.Select(int.Parse).ToArray();
         }
     }
 }
