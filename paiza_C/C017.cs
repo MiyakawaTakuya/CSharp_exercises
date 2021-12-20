@@ -14,17 +14,17 @@ namespace paiza_C
             int A_ = 0;
             int B_ = 0;
 
-            for (int i = 0; i < n; i++)  
+            for (int i = 0; i < n; i++)
             {
                 string[] ArrayData2 = Console.ReadLine().Trim().Split(' ');
                 A_ = int.Parse(ArrayData2[0]);
                 B_ = int.Parse(ArrayData2[1]);
                 //ここから勝負判定の条件分岐
-                if(a >A_)
+                if (a > A_)
                 {
                     Console.WriteLine("High");
                 }
-                else if(a < A_)
+                else if (a < A_)
                 {
                     Console.WriteLine("Low");
                 }
@@ -39,10 +39,46 @@ namespace paiza_C
                         Console.WriteLine("High");
                     }
                 }
-
             }
-
         }
+
+        //internal static void test2()
+        //{
+        //    int[,] BossData = new int[1, 2] {Console.ReadLine().Trim().Split(' '),3 };
+        //    string[,] ArrayData = Console.ReadLine().Trim().Split(' ');
+        //    //int a = int.Parse(ArrayData[0]);
+        //    //int b = int.Parse(ArrayData[1]);
+        //    //int n = int.Parse(Console.ReadLine());
+        //    //int A_ = 0;
+        //    //int B_ = 0;
+
+        //    for (int i = 0; i < n; i++)
+        //    {
+        //        string[] ArrayData2 = Console.ReadLine().Trim().Split(' ');
+        //        A_ = int.Parse(ArrayData2[0]);
+        //        B_ = int.Parse(ArrayData2[1]);
+        //        //ここから勝負判定の条件分岐
+        //        if (a > A_)
+        //        {
+        //            Console.WriteLine("High");
+        //        }
+        //        else if (a < A_)
+        //        {
+        //            Console.WriteLine("Low");
+        //        }
+        //        else if (a == A_)
+        //        {
+        //            if (b > B_)
+        //            {
+        //                Console.WriteLine("Low");
+        //            }
+        //            else if (b < B_)
+        //            {
+        //                Console.WriteLine("High");
+        //            }
+        //        }
+        //    }
+        //}
     }
 }
 

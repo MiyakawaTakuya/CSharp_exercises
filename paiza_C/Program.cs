@@ -32,6 +32,7 @@ namespace paiza_C
             //B095.test();
             //C049.test();
             //C017.test();
+            //C017.test2();
             //C089.test();
             //C040.test();
             //C092.test();
@@ -41,7 +42,12 @@ namespace paiza_C
             //C098.test();
             //C031.test();
             //C046.test();
-            B004.test();
+            //B004.test();
+            //C055.test();
+            //C084.test();
+            //C084.test2();  //別で関数を用意
+            //C090.test();
+            C023.test();
         }
     }
 }
