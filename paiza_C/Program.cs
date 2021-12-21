@@ -49,6 +49,7 @@ namespace paiza_C
             //C090.test();
             //C023.test();
             //B101.test();  //Array.Sort()    int[] intArray = strArray.Select(int.Parse).ToArray();
+            C025.test();
         }
     }
 }
