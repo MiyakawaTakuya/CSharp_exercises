@@ -25,7 +25,7 @@ namespace paiza_C
             //C039.test();
             //C056.test();
             //C057.test();
-            //C091.test();
+            //C091.test();  //var min = self.Min(c => Math.Abs(c - target));  //絶対値が最小値になる要素  //var list = new List<int>(); //list.Add(N);
             //C099.test();
             //C097.test();
             //C014.test();
@@ -41,15 +41,16 @@ namespace paiza_C
             //C032.test();
             //C098.test();
             //C031.test();
-            //C046.test();
-            //B004.test();
+            //C046.test();  //IOrderedEnumerable<KeyValuePair<string, int>> sorted = member.OrderBy(pair => pair.Value);  //foreach (var pair in sorted.Reverse()) 
+            //B004.test();  //ipAddr.Contains('-')
             //C055.test();
-            //C084.test();
+            //C084.test();  //S.Length
             //C084.test2();  //別で関数を用意
             //C090.test();
             //C023.test();
             //B101.test();  //Array.Sort()    int[] intArray = strArray.Select(int.Parse).ToArray();
-            C025.test();
+            //C025.test();  //Dictionary<int, int>()
+            C077.test();
         }
     }
 }
