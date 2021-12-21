@@ -50,7 +50,9 @@ namespace paiza_C
             //C023.test();
             //B101.test();  //Array.Sort()    int[] intArray = strArray.Select(int.Parse).ToArray();
             //C025.test();  //Dictionary<int, int>()
-            C077.test();
+            //C077.test();  //小数点絡みの条件分岐のランク付
+            //C045.test();  //タイムアウト０点 出力結果も６割正解
+
         }
     }
 }
