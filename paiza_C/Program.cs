@@ -52,7 +52,8 @@ namespace paiza_C
             //C025.test();  //Dictionary<int, int>()
             //C077.test();  //小数点絡みの条件分岐のランク付
             //C045.test();  //タイムアウト０点 出力結果も６割正解
-            C088.test();
+            //C088.test();  //Dictionary<int, int>()  for文の中で tools.Add(i, intArray[i-1])
+            C029_Re.test();
 
         }
     }
