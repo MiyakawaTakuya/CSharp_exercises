@@ -13,14 +13,14 @@ namespace paiza_C
             Console.WriteLine(S);
         }
 
-        internal static void test2()
-        {
-            string S = Console.ReadLine();  //リードライン
-            string n = Console.ReadLine();  //取り除きたいワード
-            Regex re1 = new Regex(n, RegexOptions.Singleline); //aiueo...の母音を取り除く
-            S = re1.Replace(S, "");
-            Console.WriteLine(S);
-        }
+        //internal static void test2()
+        //{
+        //    string S = Console.ReadLine();  //リードライン
+        //    string n = Console.ReadLine();  //取り除きたいワード
+        //    Regex re1 = new Regex(n, RegexOptions.Singleline); //aiueo...の母音を取り除く
+        //    S = re1.Replace(S, "");
+        //    Console.WriteLine(S);
+        //}
     }
 }
 
