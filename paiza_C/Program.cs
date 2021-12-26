@@ -54,7 +54,8 @@ namespace paiza_C
             //C045.test();  //タイムアウト０点 出力結果も６割正解
             //C088.test();  //Dictionary<int, int>()  for文の中で tools.Add(i, intArray[i-1])
             //C029_Re.test();
-            //C072.test();  //int[] intArray2 = (strArray2.Where((source, index) => index != 0)).Select(int.Parse).ToArray(); 
+            //C072.test();  //int[] intArray2 = (strArray2.Where((source, index) => index != 0)).Select(int.Parse).ToArray();
+            C075.test();
 
         }
     }
