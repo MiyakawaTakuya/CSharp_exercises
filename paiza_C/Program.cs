@@ -56,7 +56,8 @@ namespace paiza_C
             //C029_Re.test();
             //C072.test();  //int[] intArray2 = (strArray2.Where((source, index) => index != 0)).Select(int.Parse).ToArray();
             //C075.test();
-            C048.test();
+            //C048.test();
+            B043.test();
 
         }
     }
