@@ -26,7 +26,7 @@ namespace paiza_C
             string[] strArray2 = Console.ReadLine().Trim().Split(' ');  //読み取り
             int[] intArray2 = strArray2.Select(int.Parse).ToArray();  //intへ変換
             nowPos_x = intArray2[0] - 1;  //現在地のx座標(配列表記)
-            nowPos_y = intArray2[1] - 1;  //現在地のx座標(配列表記)
+            nowPos_y = intArray2[1] - 1;  //現在地のy座標(配列表記)
 
             for (int i = 0; i < H; i++)
             {
@@ -137,6 +137,8 @@ namespace paiza_C
 }
 
 //受験結果 受験言語： C# 解答時間： 118分39秒 バイト数： 3967 Byte スコア： 21点  2h以内に一旦回答  211227
+
+//受験結果 受験言語： C# 獲得ランク： Bランク スコア： 100点
 
 //・今いる家が庶民の家であれば、その家を富豪の家にする。その後、90 度(自分から見て) 右に回転して正面に 1 マス分進む。
 //・今いる家が富豪の家であれば、その家を庶民の家にする。その後、90 度(自分から見て) 左に回転して正面に 1 マス分進む。

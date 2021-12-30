@@ -57,9 +57,10 @@ namespace paiza_C
             //C072.test();  //int[] intArray2 = (strArray2.Where((source, index) => index != 0)).Select(int.Parse).ToArray();
             //C075.test();
             //C048.test();
-            //B043.test();
-            C069.test();
-
+            //B043.test();  //二次元配列でマップ作成 関数複数用意 
+            //C069.test(); 
+            //C024.test();
+            B043_Re.main();
         }
     }
 }

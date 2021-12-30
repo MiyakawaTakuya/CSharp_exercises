@@ -21,17 +21,22 @@ namespace paiza_C
                 x = int.Parse(ArrayData3_[0]);
                 y = int.Parse(ArrayData3_[1]);
                 if ((x - a) * (x - a) + (y - b) * (y - b) >= R * R)
-                {
                     Console.WriteLine("silent");
-                }
                 else
-                {
                     Console.WriteLine("noisy");
-                }
                 
+                //if ((x - a) * (x - a) + (y - b) * (y - b) >= R * R)
+                //{
+                //    Console.WriteLine("silent");
+                //}
+                //else
+                //{
+                //    Console.WriteLine("noisy");
+                //}
 
-                
+
             }
+
         }
     }
 }

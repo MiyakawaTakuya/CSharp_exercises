@@ -1,44 +1,35 @@
 ﻿<Properties StartupConfiguration="{50725F40-8F75-483D-9B22-137FB4E1CD3E}|Default">
   <MonoDevelop.Ide.ItemProperties.paiza__C PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="paiza_C/C024.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="paiza_C/B043_Re2.cs">
     <Files>
-      <File FileName="paiza_C/Program.cs" Line="61" Column="26" />
-      <File FileName="paiza_C/C091.cs" Line="16" Column="1" />
-      <File FileName="paiza_C/C017.cs" Line="20" Column="47" />
-      <File FileName="paiza_C/C032.cs" Line="13" Column="27" />
-      <File FileName="paiza_C/C098.cs" Line="15" Column="13" />
-      <File FileName="paiza_C/C046.cs" Line="24" Column="14" />
-      <File FileName="paiza_C/C018.cs" Line="18" Column="27" />
+      <File FileName="paiza_C/Program.cs" Line="53" Column="42" />
       <File FileName="paiza_C/B004.cs" Line="60" Column="22" />
-      <File FileName="paiza_C/C090.cs" Line="14" Column="25" />
-      <File FileName="paiza_C/B101.cs" Line="8" Column="22" />
-      <File FileName="paiza_C/C077.cs" Line="19" Column="1" />
-      <File FileName="paiza_C/C045.cs" Line="38" Column="28" />
-      <File FileName="paiza_C/C088.cs" Line="12" Column="13" />
-      <File FileName="paiza_C/C029_Re.cs" Line="23" Column="1" />
+      <File FileName="paiza_C/B101.cs" Line="21" Column="49" />
+      <File FileName="paiza_C/C088.cs" Line="16" Column="49" />
+      <File FileName="paiza_C/C029_Re.cs" Line="22" Column="60" />
       <File FileName="paiza_C/C072.cs" Line="35" Column="17" />
       <File FileName="paiza_C/C075.cs" Line="29" Column="17" />
-      <File FileName="paiza_C/B043.cs" Line="71" Column="17" />
-      <File FileName="paiza_C/C069.cs" Line="28" Column="43" />
-      <File FileName="paiza_C/C024.cs" Line="1" Column="1" />
+      <File FileName="paiza_C/C069.cs" Line="20" Column="28" />
+      <File FileName="paiza_C/C010.cs" Line="24" Column="49" />
+      <File FileName="paiza_C/B043.cs" Line="29" Column="35" />
+      <File FileName="paiza_C/B043_Re.cs" Line="49" Column="40" />
+      <File FileName="paiza_C/B043_Re2.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="paiza_C" expanded="True">
             <Node name="paiza_C" expanded="True">
-              <Node name="C024.cs" selected="True" />
+              <Node name="B043_Re2.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
         <State>
-          <Value>nowOrie</Value>
-          <Value>nowPos_x</Value>
-          <Value>nowPos_y</Value>
           <Value>nowHouse</Value>
-          <Value>moveCount</Value>
+          <Value>nowMap</Value>
+          <Value>nowPos</Value>
         </State>
       </Pad>
     </Pads>
@@ -52,7 +43,6 @@
       <Breakpoint file="/Users/miyagawatakuya/G's Task/paiza/paiza_C/paiza_C/B004.cs" relfile="paiza_C/B004.cs" line="55" column="1" />
       <Breakpoint file="/Users/miyagawatakuya/G's Task/paiza/paiza_C/paiza_C/C029_Re.cs" relfile="paiza_C/C029_Re.cs" line="53" column="1" />
       <Breakpoint file="/Users/miyagawatakuya/G's Task/paiza/paiza_C/paiza_C/C048.cs" relfile="paiza_C/C048.cs" line="23" column="1" />
-      <Breakpoint file="/Users/miyagawatakuya/G's Task/paiza/paiza_C/paiza_C/B043.cs" relfile="paiza_C/B043.cs" line="65" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
