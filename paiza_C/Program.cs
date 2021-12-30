@@ -61,7 +61,9 @@ namespace paiza_C
             //C069.test(); 
             //C024.test();
             //B043_Re.main();  //public structで変数を構造体にした //switch文を書いてみた  //二次元配列の長さ取得GetLength()
-            C028.main();
+            //C028.main();
+            //C102.main();
+            C021.main();
         }
     }
 }

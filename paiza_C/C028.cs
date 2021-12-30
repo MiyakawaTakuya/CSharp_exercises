@@ -36,12 +36,19 @@ namespace paiza_C
 			{
 				if (correct[i] != answer[i]) missCount++;
 			}
-			switch (missCount)  //得点入れる
-			{
-				case 0: pointSum += 2; break;
-				case 1: pointSum += 1; break;
-				default: break;
-			}
+
+            switch (missCount)  //得点入れる
+            {
+                case 0: pointSum += 2; break;
+                case 1: pointSum += 1; break;
+                default: break;
+            }
+			//var y = missCount switch   //こんな書き方もできる...けど
+			//{
+			//	0 => pointSum += 2,
+			//	1 => pointSum += 1,
+			//	_ => throw new InvalidOperationException()
+			//};
 		}
 	}
 }
