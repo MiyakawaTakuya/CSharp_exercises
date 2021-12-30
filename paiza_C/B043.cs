@@ -25,8 +25,8 @@ namespace paiza_C
             //現在地と向き
             string[] strArray2 = Console.ReadLine().Trim().Split(' ');  //読み取り
             int[] intArray2 = strArray2.Select(int.Parse).ToArray();  //intへ変換
-            nowPos_x = intArray2[0] - 1;  //現在地のx座標(配列表記)
-            nowPos_y = intArray2[1] - 1;  //現在地のy座標(配列表記)
+            nowPos_x = intArray2[1] - 1;  //現在地のx座標(配列表記)
+            nowPos_y = intArray2[0] - 1;  //現在地のy座標(配列表記)
 
             for (int i = 0; i < H; i++)
             {

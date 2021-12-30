@@ -60,7 +60,8 @@ namespace paiza_C
             //B043.test();  //二次元配列でマップ作成 関数複数用意 
             //C069.test(); 
             //C024.test();
-            B043_Re.main();
+            //B043_Re.main();  //public structで変数を構造体にした //switch文を書いてみた  //二次元配列の長さ取得GetLength()
+            C028.main();
         }
     }
 }
