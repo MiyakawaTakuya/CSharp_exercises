@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{50725F40-8F75-483D-9B22-137FB4E1CD3E}|Default">
   <MonoDevelop.Ide.ItemProperties.paiza__C PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="paiza_C/C102.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="paiza_C/C083.cs">
     <Files>
-      <File FileName="paiza_C/Program.cs" Line="65" Column="25" />
-      <File FileName="paiza_C/default.cs" Line="57" Column="1" />
+      <File FileName="paiza_C/Program.cs" Line="67" Column="27" />
+      <File FileName="paiza_C/default.cs" Line="8" Column="1" />
       <File FileName="paiza_C/B004.cs" />
       <File FileName="paiza_C/B101.cs" Line="15" Column="59" />
       <File FileName="paiza_C/B043_Re.cs" Line="36" Column="51" />
@@ -11,22 +11,25 @@
       <File FileName="paiza_C/C028.cs" Line="24" Column="4" />
       <File FileName="paiza_C/D198.cs" Line="2" Column="1" />
       <File FileName="paiza_C/C102.cs" Line="22" Column="51" />
-      <File FileName="paiza_C/C021.cs" Line="2" Column="17" />
+      <File FileName="paiza_C/C021.cs" Line="22" Column="1" />
+      <File FileName="paiza_C/C060.cs" Line="31" Column="31" />
+      <File FileName="paiza_C/C079.cs" Line="10" Column="32" />
+      <File FileName="paiza_C/C078.cs" Line="20" Column="1" />
+      <File FileName="paiza_C/C083.cs" Line="3" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="paiza_C" expanded="True">
             <Node name="paiza_C" expanded="True">
-              <Node name="C102.cs" selected="True" />
+              <Node name="C083.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
         <State>
-          <Value>liveA</Value>
-          <Value>liveB</Value>
+          <Value>dic</Value>
         </State>
       </Pad>
     </Pads>
