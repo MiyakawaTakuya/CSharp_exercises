@@ -10,15 +10,12 @@ namespace paiza_C
 		//フィールド
 		private static int pairSum = 0;
 		private static Dictionary<string, string> socks = new Dictionary<string, string>();
-		private static int countR = 0;
-		private static int countL = 0;
 		private static int countPair = 0;
 		private static int[] countRL = new int[2];
 
 		internal static void main()
 		{
 			int N = int.Parse(Console.ReadLine());
-
 			//Dictionaryに格納する
 			for (int i = 0; i < N; i++)
 			{
@@ -40,25 +37,21 @@ namespace paiza_C
 			//出力
 			Console.WriteLine(pairSum);
 		}
+		//ペアカウントする関数
+		internal static int pairCount(string value)  
+        {
+            countRL[0] = CountChar(value, 'R');
+            countRL[1] = CountChar(value, 'L');
+            countPair = countRL.Min();
+            return countPair;
+        }
+		//文字列の中の特定の文字をカウントする関数
+		public static int CountChar(string s, char c)  
+        {
+            return s.Length - s.Replace(c.ToString(), "").Length;
+        }
 
-		internal static int pairCount(string value)
-		{
-			char[] chars = value.ToCharArray();  //一文字ずつchar配列として分解する
-			foreach (char one in chars)
-			{
-				switch (one)  //左回りして一つ進む
-				{
-					case 'R': countR += 1; break;
-					case 'L': countL += 1; break;
-				}
-			}
-			countRL[0] = countR; countRL[1] = countL;
-			countPair = countRL.Min();
-			countR = 0; countL = 0;
-			return countPair;
-		}
-
-	}
+    }
 }
 //入力は以下のフォーマットで与えられます。
 

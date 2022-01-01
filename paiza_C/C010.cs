@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 namespace paiza_C
 {
     public class C010
@@ -25,18 +26,37 @@ namespace paiza_C
                 else
                     Console.WriteLine("noisy");
                 
-                //if ((x - a) * (x - a) + (y - b) * (y - b) >= R * R)
-                //{
-                //    Console.WriteLine("silent");
-                //}
-                //else
-                //{
-                //    Console.WriteLine("noisy");
-                //}
-
-
             }
 
+        }
+
+        //２回目のコード
+        private static int a, b, R;
+        internal static void internalain()
+        {
+            string[] strArray = Console.ReadLine().Trim().Split(' ');  //読み取り
+            int[] intArray = strArray.Select(int.Parse).ToArray();  //intへ変換
+            a = intArray[0];
+            b = intArray[1];
+            R = intArray[2];
+            int N = int.Parse(Console.ReadLine());
+            for (int i = 0; i < N; i++)
+            {
+                string[] strArray2 = Console.ReadLine().Trim().Split(' ');  //読み取り
+                int[] intArray2 = strArray2.Select(int.Parse).ToArray();  //intへ変換
+                Console.WriteLine(judge(intArray2[0], intArray2[1]));
+            }
+        }
+        internal static string judge(int x, int y)
+        {
+            if ((x - a) * (x - a) + (y - b) * (y - b) >= R * R)
+            {
+                return "silent";
+            }
+            else
+            {
+                return "noisy";
+            }
         }
     }
 }

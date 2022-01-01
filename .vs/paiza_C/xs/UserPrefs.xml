@@ -1,40 +1,41 @@
 ﻿<Properties StartupConfiguration="{50725F40-8F75-483D-9B22-137FB4E1CD3E}|Default">
   <MonoDevelop.Ide.ItemProperties.paiza__C PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="paiza_C/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="paiza_C/Default.cs">
     <Files>
-      <File FileName="paiza_C/Program.cs" Line="52" Column="29" />
+      <File FileName="paiza_C/Program.cs" Line="68" Column="27" />
       <File FileName="paiza_C/default.cs" Line="8" Column="1" />
       <File FileName="paiza_C/B004.cs" />
-      <File FileName="paiza_C/B101.cs" Line="15" Column="59" />
-      <File FileName="paiza_C/B043_Re.cs" Line="36" Column="51" />
-      <File FileName="paiza_C/B043_Re2.cs" Line="14" Column="28" />
-      <File FileName="paiza_C/C028.cs" Line="24" Column="4" />
-      <File FileName="paiza_C/D198.cs" Line="2" Column="1" />
-      <File FileName="paiza_C/C102.cs" Line="22" Column="51" />
-      <File FileName="paiza_C/C021.cs" Line="22" Column="1" />
-      <File FileName="paiza_C/C060.cs" Line="31" Column="31" />
-      <File FileName="paiza_C/C079.cs" Line="10" Column="32" />
-      <File FileName="paiza_C/C078.cs" Line="20" Column="1" />
-      <File FileName="paiza_C/C083.cs" Line="25" Column="64" />
-      <File FileName="paiza_C/C081.cs" Line="31" Column="1" />
-      <File FileName="paiza_C/C063.cs" Line="31" Column="43" />
+      <File FileName="paiza_C/B101.cs" />
+      <File FileName="paiza_C/B043_Re.cs" />
+      <File FileName="paiza_C/B043_Re2.cs" />
+      <File FileName="paiza_C/C028.cs" />
+      <File FileName="paiza_C/D198.cs" />
+      <File FileName="paiza_C/C102.cs" />
+      <File FileName="paiza_C/C021.cs" />
+      <File FileName="paiza_C/C060.cs" />
+      <File FileName="paiza_C/C079.cs" />
+      <File FileName="paiza_C/C078.cs" />
+      <File FileName="paiza_C/C081.cs" Line="34" Column="14" />
+      <File FileName="paiza_C/C063.cs" Line="13" Column="3" />
+      <File FileName="paiza_C/C022.cs" Line="29" Column="21" />
+      <File FileName="paiza_C/C026.cs" Line="14" Column="58" />
+      <File FileName="paiza_C/C064.cs" Line="33" Column="1" />
+      <File FileName="paiza_C/C013_2.cs" Line="28" Column="14" />
+      <File FileName="paiza_C/C053.cs" Line="4" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="paiza_C" expanded="True">
             <Node name="paiza_C" expanded="True">
-              <Node name="Program.cs" selected="True" />
+              <Node name="Default.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
         <State>
-          <Value>sumDay</Value>
-          <Value>maxDate</Value>
-          <Value>days</Value>
-          <Value>bloom</Value>
+          <Value>socks</Value>
         </State>
       </Pad>
     </Pads>
