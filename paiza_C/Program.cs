@@ -67,7 +67,9 @@ namespace paiza_C
             //C060.main();
             //C079.main();
             //C078.main();
-            C083.main();  //string graph = new string(char[]));でchar[]を文字列
+            //C083.main();  //string graph = new string(char[]));でchar[]を文字列
+            //C081.main();  //文字列の足し算  からの charカウント  // int CountChar(string s, char c) 自作関数
+            //C063.main();   //例題全部あってるけどなぜか正答率半分。いつか再チャレンジ.
 
         }
     }
