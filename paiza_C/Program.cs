@@ -73,7 +73,12 @@ namespace paiza_C
             //C022.main();  //List<int> にAdd()
             //C026.main();
             //C064.main();
-            C053.main();
+            //C053.main();
+            //C058.main();  //ランタイムエラーで6点
+            //C035.main();  //List<int> intCard = list.ConvertAll(int.Parse);  List<string>をintへ変換
+            //C101_Re.main();  //if (i.ToString().Contains(X)) judgeXcount++;
+            C051.main();
+
         }
     }
 }
