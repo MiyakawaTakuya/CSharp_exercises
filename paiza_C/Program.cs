@@ -77,7 +77,12 @@ namespace paiza_C
             //C058.main();  //ランタイムエラーで6点
             //C035.main();  //List<int> intCard = list.ConvertAll(int.Parse);  List<string>をintへ変換
             //C101_Re.main();  //if (i.ToString().Contains(X)) judgeXcount++;
-            C051.main();
+            //C051.main();
+            //C095.main();
+            //C093.main();
+            //C038.main(); //正解率6.5割くらい
+            //C019.main();  //約数の総和
+            //C036.main();
 
         }
     }
