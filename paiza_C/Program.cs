@@ -81,9 +81,11 @@ namespace paiza_C
             //C095.main();
             //C093.main();
             //C038.main(); //正解率6.5割くらい
-            //C019.main();  //約数の総和
+            //C019.main(); //約数の総和
             //C036.main();
-
+            //C050.main(); //再帰関数 
+            //C030.main();
+            //C087.main();  //string.Substring(0, 1)  文字列の0番目から1番目の手前までのstring型を返す  最後の値の取り方に少し癖あり
         }
     }
 }

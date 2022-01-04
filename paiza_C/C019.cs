@@ -11,9 +11,8 @@ namespace paiza_C
 
 		internal static void main()
 		{
+			//読み込み
 			int Q = int.Parse(Console.ReadLine());
-			int S = 0;
-
 			for (int i = 0; i < Q; i++)
 			{
 				int n = int.Parse(Console.ReadLine());

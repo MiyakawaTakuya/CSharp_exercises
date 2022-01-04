@@ -1,33 +1,36 @@
 ﻿<Properties StartupConfiguration="{50725F40-8F75-483D-9B22-137FB4E1CD3E}|Default">
   <MonoDevelop.Ide.ItemProperties.paiza__C PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="paiza_C/C025.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="paiza_C/C087.cs">
     <Files>
-      <File FileName="paiza_C/Program.cs" Line="81" Column="27" />
+      <File FileName="paiza_C/Program.cs" Line="84" Column="35" />
       <File FileName="paiza_C/default.cs" Line="8" Column="1" />
-      <File FileName="paiza_C/C025.cs" Line="13" Column="5" />
+      <File FileName="paiza_C/C025.cs" Line="14" Column="1" />
       <File FileName="paiza_C/C035.cs" Line="11" Column="1" />
       <File FileName="paiza_C/C101_Re.cs" Line="19" Column="49" />
       <File FileName="paiza_C/C051.cs" Line="17" Column="1" />
       <File FileName="paiza_C/C095.cs" Line="33" Column="4" />
       <File FileName="paiza_C/C093.cs" Line="22" Column="5" />
-      <File FileName="paiza_C/C038.cs" Line="39" Column="43" />
-      <File FileName="paiza_C/C019.cs" Line="13" Column="4" />
-      <File FileName="paiza_C/C036.cs" Line="22" Column="1" />
+      <File FileName="paiza_C/C036.cs" Line="38" Column="4" />
+      <File FileName="paiza_C/C050.cs" Line="24" Column="49" />
+      <File FileName="paiza_C/C030.cs" Line="44" Column="34" />
+      <File FileName="paiza_C/C087.cs" Line="5" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="paiza_C" expanded="True">
             <Node name="paiza_C" expanded="True">
-              <Node name="C025.cs" selected="True" />
+              <Node name="C087.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
         <State>
-          <Value>Bob_p</Value>
-          <Value>Alice_p</Value>
+          <Value>S</Value>
+          <Value>a</Value>
+          <Value>b</Value>
+          <Value>rote</Value>
         </State>
       </Pad>
     </Pads>

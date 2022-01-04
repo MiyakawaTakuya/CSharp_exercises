@@ -7,9 +7,7 @@ namespace paiza_C
 {
     public class C036
     {
-		//フィールド
-		private static int n;
-
+		private static int silver;
 		internal static void main()
 		{
 			//入力
@@ -28,20 +26,24 @@ namespace paiza_C
 			Array.Sort(secondMember); //数が小さ順に並び替え
 
 			//それぞれのタイムをDictionaryで記録
-			string[] strArray4 = Console.ReadLine().Trim().Split(' ');  //読み取り
-			int[] second = strArray4.Select(int.Parse).ToArray();  //intへ変換
+			string[] strArray4 = Console.ReadLine().Trim().Split(' '); 
+			int[] second = strArray4.Select(int.Parse).ToArray();  
 			var secondResult = new Dictionary<int, int>()
 			{{secondMember[0],second[0]}, {secondMember[1],second[1]}};
-			Console.WriteLine();
+			Console.WriteLine(race(secondMember, secondResult));
+			Console.WriteLine(silver);
 		}
 
 		internal static int race(int[] member, Dictionary<int, int> dic)
 		{
 			int time = Math.Min(dic[member[0]], dic[member[1]]);
+			int timeSlow = Math.Max(dic[member[0]], dic[member[1]]);
+			silver = dic.FirstOrDefault(x => x.Value.Equals(timeSlow)).Key;
 			return dic.FirstOrDefault(x => x.Value.Equals(time)).Key;
 		}
 	}
 }
+//受験結果 受験言語： C# 解答時間： 36分43秒 バイト数： 1564 Byte スコア： 80点  220104  正答率100%
 
 //入力は以下のフォーマットで与えられます。
 //p_1 p_2
