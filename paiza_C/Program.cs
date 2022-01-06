@@ -97,7 +97,8 @@ namespace paiza_C
             //C094.main();
             //C071.main();  //Math.Sqrt(i * i + j * j);で平方根をとる  //underDeci = root % 1;  小数点以下の値を拾って整数かどうかを判断する
             //C006_Re.main();
-            C005_Re.main();
+            //C005_Re.main3();
+            C031_Re.main();
 
 
         }
