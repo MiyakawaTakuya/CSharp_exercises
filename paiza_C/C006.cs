@@ -1,4 +1,6 @@
 ﻿using System;
+//C006:ハイスコアランキング
+
 
 namespace paiza_C
 {

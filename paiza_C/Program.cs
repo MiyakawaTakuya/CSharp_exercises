@@ -89,7 +89,16 @@ namespace paiza_C
             //C059.main();  //public string Substring (int startIndex, int length);
             //C076.main();  //var salary = new Dictionary<int, int>()  時刻に連想配列
             //C074.main();
-            C062.main();
+            //C062.main();
+            //C067.main();  //Convert.ToString((X), 2);で２進数のstringに変換
+            //C052.main();
+            //C096.main();  //ランタイムエラーで大失点 forのindexに配列の値を持ってこないこと
+            //C034.main();
+            //C094.main();
+            //C071.main();  //Math.Sqrt(i * i + j * j);で平方根をとる  //underDeci = root % 1;  小数点以下の値を拾って整数かどうかを判断する
+            //C006_Re.main();
+            C005_Re.main();
+
 
         }
     }
