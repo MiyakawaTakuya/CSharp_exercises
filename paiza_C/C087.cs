@@ -32,9 +32,13 @@ namespace paiza_C
 		internal static bool isPalindrome(string b)
 		{
 			int count = 0;
-			for (int i = 1; i <= b.Length / 2; i++)
-			{
-				if (b.Substring(i - 1, i) == b.Substring(b.Length - i)) count++;
+			if (b.Substring(0, 1) == b.Substring(b.Length - 1)) count++;
+            if (b.Length >= 4)
+            {
+			    for (int i = 2; i <= b.Length / 2; i++)
+			    {
+					if (b.Substring(i - 1, i) == b.Substring(b.Length - i - 1, b.Length - i)) count++;
+				}
 			}
 			if (count == b.Length / 2)
 			{
@@ -45,8 +49,13 @@ namespace paiza_C
 				return false;
 			}
 		}
-    }
+	}
 }
+
+//受験結果 受験言語： C# 解答時間： 56分14秒 バイト数： 987 Byte スコア： 51点  １問間違い  難易度に対して成績わるめ
+
+//問題集計 受験者数： 4,944人 正解率： 87.31％ 平均解答時間： 22分59秒 平均スコア： 70.56点 
+//難易度： 1600 ±6
 
 //入力は以下のフォーマットで与えられます。
 //N

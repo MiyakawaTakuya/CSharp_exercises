@@ -85,7 +85,11 @@ namespace paiza_C
             //C036.main();
             //C050.main(); //再帰関数 
             //C030.main();
-            //C087.main();  //string.Substring(0, 1)  文字列の0番目から1番目の手前までのstring型を返す  最後の値の取り方に少し癖あり
+            //C087.main();  //再帰関数 //string.Substring(0, 1)  文字列の0番目から長さ1のstring型を返す
+            //C059.main();  //public string Substring (int startIndex, int length);
+            //C076.main();  //var salary = new Dictionary<int, int>()  時刻に連想配列
+            C074.main();
+
         }
     }
 }
