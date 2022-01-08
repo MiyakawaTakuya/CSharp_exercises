@@ -28,7 +28,7 @@ namespace paiza_C
 			DateTime baseTime = new DateTime(2022, 1, 7, baseHour, baseMin, 0);
 
 			//出力
-			//forで回して各都市の時間を足し引きして書き出す
+			//forearchで回して各都市の時差を足して書き出す
 			foreach (KeyValuePair<string, int> HH in city)
 			{
 				Console.WriteLine(baseTime.AddHours(HH.Value - BaseHour).ToString("HH:mm"));

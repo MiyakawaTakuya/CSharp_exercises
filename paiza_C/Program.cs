@@ -98,8 +98,12 @@ namespace paiza_C
             //C071.main();  //Math.Sqrt(i * i + j * j);で平方根をとる  //underDeci = root % 1;  小数点以下の値を拾って整数かどうかを判断する
             //C006_Re.main();
             //C005_Re.main3();
-            C031_Re.main();
-
+            //C031_Re.main();  //foreach (KeyValuePair<string, int> HH in city)
+            //C085.main();  //List<string> keyList = new List<string>(dic.Keys);  DictionaryのKeyだけのリストを作成して、ようやくforeachで回せる
+            //C100.main();//DateTime を使ってforで回してたらランタイムエラーでアウト
+            //C044.main();
+            //C054.main();
+            C080.main();
 
         }
     }
