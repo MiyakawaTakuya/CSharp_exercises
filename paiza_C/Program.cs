@@ -44,8 +44,8 @@ namespace paiza_C
             //C046.test();  //IOrderedEnumerable<KeyValuePair<string, int>> sorted = member.OrderBy(pair => pair.Value);  //foreach (var pair in sorted.Reverse()) 
             //B004.test();  //ipAddr.Contains('-')
             //C055.test();
-            //C084.test();  //S.Length
-            //C084.test2();  //別で関数を用意
+            //C084.test();   //String.Length
+            //C084.test2();  
             //C090.test();
             //C023.test();
             //B101.test();  //Array.Sort()    int[] intArray = strArray.Select(int.Parse).ToArray();
@@ -100,10 +100,16 @@ namespace paiza_C
             //C005_Re.main3();
             //C031_Re.main();  //foreach (KeyValuePair<string, int> HH in city)
             //C085.main();  //List<string> keyList = new List<string>(dic.Keys);  DictionaryのKeyだけのリストを作成して、ようやくforeachで回せる
-            //C100.main();//DateTime を使ってforで回してたらランタイムエラーでアウト
+            //C100.main();  //DateTime を使ってforで回してたらランタイムエラーでアウト
             //C044.main();
             //C054.main();
-            C080.main();
+            //C080.main();
+            //C066.main();
+            //B006.main();  //Math.Round(a, 1, MidpointRounding.AwayFromZero); 小数第二位で四捨五入  //double cosθ = Math.Cos(θ * (Math.PI / 180));
+            //C065.main();  
+            //C037.main();
+            //C095_bus_time.main();
+            C073.main();
 
         }
     }
