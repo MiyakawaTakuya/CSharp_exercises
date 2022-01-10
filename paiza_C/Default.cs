@@ -7,7 +7,16 @@ namespace paiza_C
 	{
 		//フィールド
 		private static int n;
-		
+		//クラス
+		private class Medal 
+		{
+			public Medal(int a)  //コンストラクタ
+			{
+				A = a;
+			}
+			public int A { get; set; }
+		}
+
 		internal static void main()
 		{
 			//入力
