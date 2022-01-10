@@ -1,27 +1,28 @@
 ﻿<Properties StartupConfiguration="{50725F40-8F75-483D-9B22-137FB4E1CD3E}|Default">
   <MonoDevelop.Ide.ItemProperties.paiza__C PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="paiza_C/Default.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="paiza_C/C082.cs">
     <Files>
-      <File FileName="paiza_C/Program.cs" Line="107" Column="27" />
-      <File FileName="paiza_C/default.cs" Line="9" Column="1" />
+      <File FileName="paiza_C/Program.cs" Line="80" Column="27" />
+      <File FileName="paiza_C/default.cs" />
       <File FileName="paiza_C/C031.cs" />
       <File FileName="paiza_C/C031_Re.cs" />
       <File FileName="paiza_C/C085.cs" />
       <File FileName="paiza_C/C080.cs" />
       <File FileName="paiza_C/C066.cs" />
-      <File FileName="paiza_C/C071.cs" Line="9" Column="6" />
-      <File FileName="paiza_C/B006.cs" Line="34" Column="4" />
-      <File FileName="paiza_C/C065.cs" Line="29" Column="16" />
-      <File FileName="paiza_C/C037.cs" Line="53" Column="6" />
-      <File FileName="paiza_C/C095_bus_time.cs" Line="41" Column="4" />
-      <File FileName="paiza_C/C073.cs" Line="8" Column="6" />
+      <File FileName="paiza_C/C071.cs" />
+      <File FileName="paiza_C/B006.cs" />
+      <File FileName="paiza_C/C065.cs" />
+      <File FileName="paiza_C/C037.cs" />
+      <File FileName="paiza_C/C095_bus_time.cs" />
+      <File FileName="paiza_C/C073.cs" Line="62" Column="1" />
+      <File FileName="paiza_C/C082.cs" Line="8" Column="22" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="paiza_C" expanded="True">
             <Node name="paiza_C" expanded="True">
-              <Node name="Default.cs" selected="True" />
+              <Node name="C082.cs" selected="True" />
             </Node>
           </Node>
         </State>
