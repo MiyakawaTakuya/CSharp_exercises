@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{50725F40-8F75-483D-9B22-137FB4E1CD3E}|Default">
   <MonoDevelop.Ide.ItemProperties.paiza__C PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="paiza_C/C061.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="paiza_C/Program.cs">
     <Files>
-      <File FileName="paiza_C/Program.cs" Line="119" Column="25" />
-      <File FileName="paiza_C/default.cs" Line="11" Column="22" />
+      <File FileName="paiza_C/Program.cs" Line="121" Column="27" />
+      <File FileName="paiza_C/default.cs" Line="10" Column="8" />
       <File FileName="paiza_C/C031.cs" />
       <File FileName="paiza_C/C031_Re.cs" />
       <File FileName="paiza_C/C085.cs" />
@@ -17,19 +17,20 @@
       <File FileName="paiza_C/C073.cs" />
       <File FileName="paiza_C/C068.cs" Line="28" Column="31" />
       <File FileName="paiza_C/C082.cs" Line="48" Column="4" />
-      <File FileName="paiza_C/C041.cs" Line="4" Column="1" />
+      <File FileName="paiza_C/C041.cs" Line="40" Column="1" />
       <File FileName="paiza_C/C041_Re.cs" Line="37" Column="5" />
       <File FileName="paiza_C/C042.cs" Line="22" Column="5" />
       <File FileName="paiza_C/C070.cs" Line="67" Column="42" />
-      <File FileName="paiza_C/C061.cs" Line="6" Column="18" />
-      <File FileName="paiza_C/C061_Ano.cs" Line="1" Column="1" />
+      <File FileName="paiza_C/C061.cs" Line="29" Column="34" />
+      <File FileName="paiza_C/C061_Ano.cs" Line="25" Column="5" />
+      <File FileName="paiza_C/C043.cs" Line="25" Column="36" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="paiza_C" expanded="True">
             <Node name="paiza_C" expanded="True">
-              <Node name="C061.cs" selected="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -42,6 +43,8 @@
           <Value>Bkurai_1</Value>
           <Value>Bkurai_10</Value>
           <Value>Bkurai_100</Value>
+          <Value>A</Value>
+          <Value>B</Value>
         </State>
       </Pad>
     </Pads>
@@ -59,6 +62,7 @@
       <Breakpoint file="/Users/miyagawatakuya/G's Task/paiza/paiza_C/paiza_C/B006.cs" relfile="paiza_C/B006.cs" line="35" column="1" />
       <Breakpoint file="/Users/miyagawatakuya/G's Task/paiza/paiza_C/paiza_C/C082.cs" relfile="paiza_C/C082.cs" line="80" column="1" />
       <Breakpoint file="/Users/miyagawatakuya/G's Task/paiza/paiza_C/paiza_C/C068.cs" relfile="paiza_C/C068.cs" line="59" column="1" />
+      <Breakpoint file="/Users/miyagawatakuya/G's Task/paiza/paiza_C/paiza_C/C061_Ano.cs" relfile="paiza_C/C061_Ano.cs" line="68" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />

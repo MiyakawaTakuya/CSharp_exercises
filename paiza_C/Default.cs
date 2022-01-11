@@ -35,9 +35,6 @@ namespace paiza_C
 			Console.WriteLine();
 		}
 
-		internal static void Doo()
-		{
-			
-		}
+
 	}
 }

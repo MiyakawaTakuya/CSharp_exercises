@@ -117,7 +117,9 @@ namespace paiza_C
             //C042.main();
             //C070.main();
             //C061.main();
-            C061_Ano.main();
+            //C061_Ano.main();
+            //C043.main();
+            //Cランク完了
         }
     }
 }
