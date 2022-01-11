@@ -114,7 +114,10 @@ namespace paiza_C
             //C068.main(); //Array.IndexOf(配列 ,探している要素);でintで何番目かを返してくれる
             //C041.main();
             //C041_Re.main();  //クラスとコンストラクターとListで大幅削減で正解！
-            C042.main();
+            //C042.main();
+            //C070.main();
+            //C061.main();
+            C061_Ano.main();
         }
     }
 }

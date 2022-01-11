@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{50725F40-8F75-483D-9B22-137FB4E1CD3E}|Default">
   <MonoDevelop.Ide.ItemProperties.paiza__C PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="paiza_C/C042.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="paiza_C/C061.cs">
     <Files>
-      <File FileName="paiza_C/Program.cs" Line="117" Column="1" />
-      <File FileName="paiza_C/default.cs" Line="8" Column="1" />
+      <File FileName="paiza_C/Program.cs" Line="119" Column="25" />
+      <File FileName="paiza_C/default.cs" Line="11" Column="22" />
       <File FileName="paiza_C/C031.cs" />
       <File FileName="paiza_C/C031_Re.cs" />
       <File FileName="paiza_C/C085.cs" />
@@ -18,23 +18,30 @@
       <File FileName="paiza_C/C068.cs" Line="28" Column="31" />
       <File FileName="paiza_C/C082.cs" Line="48" Column="4" />
       <File FileName="paiza_C/C041.cs" Line="4" Column="1" />
-      <File FileName="paiza_C/C041_Re.cs" Line="35" Column="14" />
-      <File FileName="paiza_C/C042.cs" Line="1" Column="7" />
+      <File FileName="paiza_C/C041_Re.cs" Line="37" Column="5" />
+      <File FileName="paiza_C/C042.cs" Line="22" Column="5" />
+      <File FileName="paiza_C/C070.cs" Line="67" Column="42" />
+      <File FileName="paiza_C/C061.cs" Line="6" Column="18" />
+      <File FileName="paiza_C/C061_Ano.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="paiza_C" expanded="True">
             <Node name="paiza_C" expanded="True">
-              <Node name="C042.cs" selected="True" />
+              <Node name="C061.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
         <State>
-          <Value>N</Value>
-          <Value>medals</Value>
+          <Value>Akurai_1</Value>
+          <Value>Akurai_10</Value>
+          <Value>Akurai_100</Value>
+          <Value>Bkurai_1</Value>
+          <Value>Bkurai_10</Value>
+          <Value>Bkurai_100</Value>
         </State>
       </Pad>
     </Pads>

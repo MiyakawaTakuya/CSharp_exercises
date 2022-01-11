@@ -35,7 +35,7 @@ namespace paiza_C
             }
 			foreach (Medal val in medals.OrderByDescending(val => val.Bronze).OrderByDescending(a => a.Silver).OrderByDescending(val => val.Gold))
 			{
-				Console.WriteLine("金は{0},銀は{1},銅は{2}", val.Gold, val.Silver,val.Bronze);
+				Console.WriteLine("{0} {1} {2}", val.Gold, val.Silver,val.Bronze);
 			}
 		}
 	}

@@ -10,11 +10,15 @@ namespace paiza_C
 		//クラス
 		private class Medal 
 		{
-			public Medal(int a)  //コンストラクタ
+			internal Medal(int a)  //コンストラクタ
 			{
 				A = a;
 			}
-			public int A { get; set; }
+			internal int A { get; set; }
+			internal static void Do()
+			{
+
+			}
 		}
 
 		internal static void main()
@@ -31,7 +35,7 @@ namespace paiza_C
 			Console.WriteLine();
 		}
 
-		internal static void Do()
+		internal static void Doo()
 		{
 			
 		}
