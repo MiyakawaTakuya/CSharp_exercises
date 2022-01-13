@@ -120,6 +120,7 @@ namespace paiza_C
             //C061_Ano.main();
             //C043.main();
             //Cランク完了
+            C038_Re.main();
         }
     }
 }
