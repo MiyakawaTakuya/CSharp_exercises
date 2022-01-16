@@ -120,8 +120,14 @@ namespace paiza_C
             //C061_Ano.main();
             //C043.main();
             //Cランク完了
+
             //C038_Re.main();
-            Datetime.Wareki();
+            //Datetime.Wareki();
+            //Datetime.lastDay();
+            //Datetime.nextDay();
+            //Datetime.dayOfWeek_Large();
+            //Console.WriteLine(Datetime.isDateTimeFormat());
+            B009.main();
         }
     }
 }
