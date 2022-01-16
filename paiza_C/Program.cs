@@ -41,8 +41,8 @@ namespace paiza_C
             //C032.test();
             //C098.test();
             //C031.test();
-            //C046.test();  //IOrderedEnumerable<KeyValuePair<string, int>> sorted = member.OrderBy(pair => pair.Value);  //foreach (var pair in sorted.Reverse()) 
-            //B004.test();  //ipAddr.Contains('-')
+            //C046.test();   //IOrderedEnumerable<KeyValuePair<string, int>> sorted = member.OrderBy(pair => pair.Value);  //foreach (var pair in sorted.Reverse()) 
+            //B004.test();   //ipAddr.Contains('-')
             //C055.test();
             //C084.test();   //String.Length
             //C084.test2();  
@@ -69,7 +69,7 @@ namespace paiza_C
             //C078.main();
             //C083.main();  //string graph = new string(char[]));でchar[]を文字列
             //C081.main();  //文字列の足し算  からの charカウント  // int CountChar(string s, char c) 自作関数  //foreach(string Key in socks.Keys)
-            //C063.main();   //例題全部あってるけどなぜか正答率半分。いつか再チャレンジ.
+            //C063.main();  //例題全部あってるけどなぜか正答率半分。いつか再チャレンジ.
             //C022.main();  //List<int> にAdd()
             //C026.main();
             //C064.main();
@@ -120,7 +120,8 @@ namespace paiza_C
             //C061_Ano.main();
             //C043.main();
             //Cランク完了
-            C038_Re.main();
+            //C038_Re.main();
+            Datetime.Wareki();
         }
     }
 }

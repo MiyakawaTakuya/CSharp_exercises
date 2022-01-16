@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/miyagawatakuya/G's Task/paiza/paiza_C/paiza_C/paiza_C.csproj",
+      "projectUniqueName": "/Users/miyagawatakuya/G's Task/C#/paiza_C/paiza_C/paiza_C.csproj",
       "projectName": "paiza_C",
-      "projectPath": "/Users/miyagawatakuya/G's Task/paiza/paiza_C/paiza_C/paiza_C.csproj",
+      "projectPath": "/Users/miyagawatakuya/G's Task/C#/paiza_C/paiza_C/paiza_C.csproj",
       "packagesPath": "/Users/miyagawatakuya/.nuget/packages/",
-      "outputPath": "/Users/miyagawatakuya/G's Task/paiza/paiza_C/paiza_C/obj/",
+      "outputPath": "/Users/miyagawatakuya/G's Task/C#/paiza_C/paiza_C/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/miyagawatakuya/.config/NuGet/NuGet.Config"
