@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 //C039:古代の数式
 
 namespace paiza_C
@@ -19,11 +20,29 @@ namespace paiza_C
             for (int i = 0;i < ArrayDataE.Length; i++)
             {
                 string S = ArrayDataE[i];
-                sum += 10*CountChar(S, '<');
+                sum += 10 * CountChar(S, '<');
                 sum += 1 * CountChar(S, '/');
             }
             Console.WriteLine(sum);
         }
+
+
+        static void test2()
+        {
+            string line = Console.ReadLine();
+            int result = 0;
+            string[] numbers = line.Split('+');
+            foreach (var i in numbers)
+            {
+                //int firsrt_count = i.Where(c => c == '/').Count();
+                int firsrt_count = i.Count(f => f == '/');  //Linqを利用してラムダ式でコンパクトに！
+                int second_count = i.Count(f => f == '<');
+                result = result + firsrt_count + 10 * second_count;
+            }
+            Console.WriteLine(result);
+        }
+        //Paiza会にて
+        //ただし、StringクラスのReplaceメソッドを利用した処理の方が数倍ほど速いので、カウントする処理を繰り返す場合には注意してほしい。
     }
 }
 

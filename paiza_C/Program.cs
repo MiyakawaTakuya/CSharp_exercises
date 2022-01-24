@@ -127,7 +127,8 @@ namespace paiza_C
             //Datetime.nextDay();
             //Datetime.dayOfWeek_Large();
             //Console.WriteLine(Datetime.isDateTimeFormat());
-            B009.main();
+            //B009.main();
+            B010.main();
         }
     }
 }
