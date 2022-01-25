@@ -73,28 +73,30 @@ namespace paiza_C
 		internal static void areaA()
 		{
 			int passS = dicTeamB[passStart];
-			teamA.OrderBy(a => a);  //昇順
+			teamA.Sort();  //昇順
 			offSidePoint = teamA[1];
+			int line = Math.Min(55,passS);
 			for (int i = teamB.Count - 1; i >= 0; i--)
 			{
-				if (teamB[i] > 55) teamB.RemoveAt(i);
-				if (teamB[i] > passS) teamB.RemoveAt(i);
+				if (teamB[i] > line) teamB.RemoveAt(i);
+				//if (teamB[i] > passS) teamB.RemoveAt(i);
 			}
 
 			for (int i = 0; i < teamB.Count; i++)
 			{
-				if (offSidePoint < teamB[i]) offSideMem.Add(teamB[i]);
+				if (offSidePoint > teamB[i]) offSideMem.Add(teamB[i]);
 			}
 		}
 		internal static void areaB()
 		{
 			int passS = dicTeamA[passStart];
-			teamB.OrderByDescending(a => a);  //降順
+			teamB.Sort((a,b) => b - a);  //降順
 			offSidePoint = teamB[1];
+			int line = Math.Max(55, passS);
 			for (int i = teamA.Count - 1; i >= 0; i--)
 			{
-				if (teamA[i] <= 55)teamA.RemoveAt(i);
-				if (teamA[i] <= passS) teamA.RemoveAt(i);
+				if (teamA[i] <= line)teamA.RemoveAt(i);
+				//if (teamA[i] <= passS) teamA.RemoveAt(i);
 			}
 			for (int i = 0; i < teamA.Count; i++)
 			{
@@ -103,7 +105,9 @@ namespace paiza_C
 		}
 	}
 }
-//18:52
+
+//受験結果 受験言語： C# 解答時間： 1614分30秒 バイト数： 2849 Byte スコア： 0点  一問間違い
+//取り組見始めシクってやりきれずPiza会に間に合わず日を越す
 
 //'''
 //オフサイドになる条件
