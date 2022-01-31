@@ -8,9 +8,9 @@ namespace paiza_C
 		//フィールド
 		private static int n;
 		//クラス
-		private class Medal 
+		private class Aa 
 		{
-			internal Medal(int a)  //コンストラクタ
+			internal Aa(int a)  //コンストラクタ
 			{
 				A = a;
 			}
