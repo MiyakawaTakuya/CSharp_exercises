@@ -15,6 +15,7 @@ namespace paiza_C
 		//フィールド
 		private static string[] A = new string[] { "0", "0", "0" };
 		private static string[] B = new string[] { "0", "0", "0" };
+
 		//クラス
 		private class Number
 		{
@@ -49,7 +50,6 @@ namespace paiza_C
 					return sum.ToString();  //足しても一桁だったらそのまま返す
 				}
 			}
-
 		}
 
 		internal static void main()
