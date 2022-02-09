@@ -132,7 +132,9 @@ namespace paiza_C
             //B011.main();
             //OnePercentGrowthDaily.main();
             //B013.main();
-            C045_Re.main();
+            //C045_Re.main();
+            //C046_Re.main();
+            //C045_Re2.main();  //String.Join(" ", P_ans)  でListを空白開けて書き出しできる
         }
     }
 }
