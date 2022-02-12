@@ -133,8 +133,9 @@ namespace paiza_C
             //OnePercentGrowthDaily.main();
             //B013.main();
             //C045_Re.main();
-            //C046_Re.main();
+            //C046_Re.main();   //memList.Sort((pair1, pair2) => pair2.Value.CompareTo(pair1.Value));  //降順
             //C045_Re2.main();  //String.Join(" ", P_ans)  でListを空白開けて書き出しできる
+            B014.main();
         }
     }
 }
