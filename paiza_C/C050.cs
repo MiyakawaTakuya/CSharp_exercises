@@ -18,7 +18,7 @@ namespace paiza_C
 			S = intArray[0];
 			a = intArray[1];
 			b = intArray[2];
-            //予算の上限まで続く再帰関数
+            //予算の上限まで続く再帰っぽい関数
 			while(!isEnd(negotiation(S))) negotiation(S);
             //出力
 			if(rote ==0) { Console.WriteLine("B " + S); }

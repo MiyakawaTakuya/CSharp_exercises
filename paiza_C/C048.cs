@@ -29,8 +29,6 @@ namespace paiza_C
                 }
             }
             Console.WriteLine(payMoney);
-
-
         }
     }
 }
