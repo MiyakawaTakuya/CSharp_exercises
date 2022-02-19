@@ -51,7 +51,7 @@ namespace paiza_C
             //入力
             int N = int.Parse(Console.ReadLine());
             int a = 1;
-            int b =0;
+            int b = 0;
             int sum = 0;
             for (int i = 0; i < N; i++)
             {
