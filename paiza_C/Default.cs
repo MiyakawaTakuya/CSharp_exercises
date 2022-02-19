@@ -5,9 +5,8 @@ namespace paiza_C
 {
 	public class Default
 	{
-		//フィールド
 		private static int n;
-		//クラス
+		
 		private class Aa 
 		{
 			internal Aa(int a)  //コンストラクタ
@@ -25,8 +24,8 @@ namespace paiza_C
 		{
 			//入力
 			int N = int.Parse(Console.ReadLine());
-			string[] strArray = Console.ReadLine().Trim().Split(' ');  //読み取り
-			int[] intArray = strArray.Select(int.Parse).ToArray();  //intへ変換
+			string[] strArray = Console.ReadLine().Trim().Split(' ');
+			int[] intArray = strArray.Select(int.Parse).ToArray();
 			for (int i = 0; i < N; i++)
 			{
 			}

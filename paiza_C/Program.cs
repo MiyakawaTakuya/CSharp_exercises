@@ -137,7 +137,8 @@ namespace paiza_C
             //C045_Re2.main();  //String.Join(" ", P_ans)  でListを空白開けて書き出しできる
             //B014.main();
             //C049.test();
-            B015.main();
+            //B015.main();
+            A057.main();
         }
     }
 }
