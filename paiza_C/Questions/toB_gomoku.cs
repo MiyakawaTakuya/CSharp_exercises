@@ -3,7 +3,7 @@ using System.Linq;
 using System;
 //五目並べ
 
-namespace paiza_C
+namespace paiza_C.Questions
 {
     public class toB_gomoku
     {

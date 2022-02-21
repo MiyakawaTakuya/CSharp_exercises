@@ -143,7 +143,8 @@ namespace paiza_C
 
 
             //Questions.binarySearch.main();
-            Questions.lower_bound.main();
+            //Questions.lower_bound.main();
+            Questions.upper_bound.main();
         }
     }
 }

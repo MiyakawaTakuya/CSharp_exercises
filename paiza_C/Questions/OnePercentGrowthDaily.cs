@@ -1,7 +1,7 @@
 ﻿// using System.Collections.Generic;
 // using System.Linq;
 using System;
-namespace paiza_C
+namespace paiza_C.Questions
 {
     public class OnePercentGrowthDaily
     {

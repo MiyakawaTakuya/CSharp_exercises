@@ -3,7 +3,7 @@ using System.Linq;
 using System;
 using System.Globalization;
 
-namespace paiza_C
+namespace paiza_C.Questions
 {
 	public class Datetime
 	{

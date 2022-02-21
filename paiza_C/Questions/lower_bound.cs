@@ -14,17 +14,13 @@ namespace paiza_C.Questions
 			n = int.Parse(Console.ReadLine());
 			string[] strArray = Console.ReadLine().Trim().Split(' ');
 			int[] A = strArray.Select(int.Parse).ToArray();
-			//ソート
-			Array.Sort(A);
+			Array.Sort(A);  //ソートされてないと２分探索が有効にならないのでソートから
 			q = int.Parse(Console.ReadLine());
 
 			for (int i = 0; i < q; i++)
 			{
 				Console.WriteLine(n - lowerBound(A, n, int.Parse(Console.ReadLine())));  //出力
 			}
-
-			//出力
-			Console.WriteLine();
 		}
 
 		//A_i >= k を満たす最小の i を返す
