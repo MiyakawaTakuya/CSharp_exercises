@@ -1,28 +1,26 @@
 ﻿<Properties StartupConfiguration="{50725F40-8F75-483D-9B22-137FB4E1CD3E}|Default">
   <MonoDevelop.Ide.ItemProperties.paiza__C PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="paiza_C/A057.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="paiza_C/Questions/binarySearch.cs">
     <Files>
-      <File FileName="paiza_C/Program.cs" Line="139" Column="27" />
-      <File FileName="paiza_C/default.cs" Line="8" Column="1" />
+      <File FileName="paiza_C/Program.cs" Line="145" Column="43" />
+      <File FileName="paiza_C/default.cs" />
       <File FileName="paiza_C/B011.cs" />
-      <File FileName="paiza_C/B013.cs" Line="9" Column="22" />
-      <File FileName="paiza_C/B014.cs" Line="9" Column="22" />
-      <File FileName="paiza_C/C049.cs" Line="22" Column="41" />
-      <File FileName="paiza_C/B015.cs" Line="25" Column="19" />
-      <File FileName="paiza_C/A057.cs" Line="4" Column="13" />
+      <File FileName="paiza_C/B013.cs" />
+      <File FileName="paiza_C/B014.cs" />
+      <File FileName="paiza_C/B015.cs" />
+      <File FileName="paiza_C/Questions/binarySearch.cs" Line="15" Column="11" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="paiza_C" expanded="True">
             <Node name="paiza_C" expanded="True">
-              <Node name="A057.cs" selected="True" />
+              <Node name="Questions" expanded="True">
+                <Node name="binarySearch.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>

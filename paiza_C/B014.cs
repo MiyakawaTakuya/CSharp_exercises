@@ -11,7 +11,6 @@ namespace paiza_C
 		private static int X,Y,Z;
 		private static int[,] vertical_X;
 
-
 		internal static void main()
 		{
 			//入力

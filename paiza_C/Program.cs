@@ -138,7 +138,11 @@ namespace paiza_C
             //B014.main();
             //C049.test();
             //B015.main();
-            A057.main();
+            //A057.main();
+
+
+
+            Questions.binarySearch.main();
         }
     }
 }
