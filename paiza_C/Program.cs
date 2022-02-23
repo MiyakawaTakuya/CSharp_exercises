@@ -122,7 +122,7 @@ namespace paiza_C
             //Cランク完了
 
             //C038_Re.main();
-            //Datetime.Wareki();
+            //Datetime.Wareki();s
             //Datetime.lastDay();
             //Datetime.nextDay();
             //Datetime.dayOfWeek_Large();
@@ -139,12 +139,14 @@ namespace paiza_C
             //C049.test();
             //B015.main();
             //A057.main();
+            //C050_Re.main();
 
 
 
             //Questions.binarySearch.main();
             //Questions.lower_bound.main();
-            Questions.upper_bound.main();
+            //Questions.upper_bound.main();
+            Questions.Number_of_integers.main();
         }
     }
 }

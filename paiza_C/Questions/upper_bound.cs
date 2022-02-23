@@ -13,8 +13,6 @@ using System;
 //今回の場合では、if (A[mid] <= k)left=mid+1 ;で処理していき、最終的に返す値(right)にkと一致した値を返さないような工夫が必要
 //２分探索を続けて行った末、left,mid,rightが３つ並んだ状態になり、ラストの１個が決まるようになっている。
 
-
-
 namespace paiza_C.Questions
 {
     public class upper_bound

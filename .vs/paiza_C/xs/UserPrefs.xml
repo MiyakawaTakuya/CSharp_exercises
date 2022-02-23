@@ -1,26 +1,39 @@
 ﻿<Properties StartupConfiguration="{50725F40-8F75-483D-9B22-137FB4E1CD3E}|Default">
   <MonoDevelop.Ide.ItemProperties.paiza__C PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="paiza_C/Questions/upper_bound.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="paiza_C/Questions/Number_of_integers (copy).cs">
     <Files>
-      <File FileName="paiza_C/Program.cs" Line="147" Column="42" />
-      <File FileName="paiza_C/default.cs" Line="8" Column="1" />
+      <File FileName="paiza_C/Program.cs" Line="149" Column="49" />
+      <File FileName="paiza_C/default.cs" />
       <File FileName="paiza_C/B011.cs" />
       <File FileName="paiza_C/B013.cs" />
       <File FileName="paiza_C/B014.cs" />
       <File FileName="paiza_C/B015.cs" />
-      <File FileName="paiza_C/Questions/binarySearch.cs" Line="14" Column="1" />
-      <File FileName="paiza_C/Questions/lower_bound.cs" Line="23" Column="5" />
-      <File FileName="paiza_C/Questions/upper_bound.cs" Line="5" Column="19" />
+      <File FileName="paiza_C/Questions/binarySearch.cs" />
+      <File FileName="paiza_C/Questions/lower_bound.cs" Line="1" Column="1" />
+      <File FileName="paiza_C/Questions/upper_bound.cs" Line="1" Column="1" />
+      <File FileName="paiza_C/Questions/Number_of_integers.cs" Line="38" Column="1" />
+      <File FileName="paiza_C/Questions/Number_of_integers (copy).cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="paiza_C" expanded="True">
             <Node name="paiza_C" expanded="True">
-              <Node name="Questions" expanded="True" />
-              <Node name="toB_gomoku.cs" selected="True" />
+              <Node name="Questions" expanded="True">
+                <Node name="Number_of_integers (copy).cs" selected="True" />
+              </Node>
             </Node>
           </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>n</Value>
+          <Value>q</Value>
+          <Value>left</Value>
+          <Value>right</Value>
+          <Value>mid</Value>
+          <Value>A[mid]</Value>
         </State>
       </Pad>
     </Pads>
@@ -37,6 +50,8 @@
       <Breakpoint file="/Users/miyagawatakuya/G's Task/C#/paiza_C/paiza_C/B006.cs" relfile="paiza_C/B006.cs" line="35" column="1" />
       <Breakpoint file="/Users/miyagawatakuya/G's Task/C#/paiza_C/paiza_C/C082.cs" relfile="paiza_C/C082.cs" line="80" column="1" />
       <Breakpoint file="/Users/miyagawatakuya/G's Task/C#/paiza_C/paiza_C/C068.cs" relfile="paiza_C/C068.cs" line="59" column="1" />
+      <Breakpoint file="/Users/miyagawatakuya/G's Task/C#/paiza_C/paiza_C/Questions/Number_of_integers.cs" relfile="paiza_C/Questions/Number_of_integers.cs" line="46" column="1" />
+      <Breakpoint file="/Users/miyagawatakuya/G's Task/C#/paiza_C/paiza_C/Questions/Number_of_integers.cs" relfile="paiza_C/Questions/Number_of_integers.cs" line="68" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
