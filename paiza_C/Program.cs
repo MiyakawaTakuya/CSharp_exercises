@@ -146,7 +146,9 @@ namespace paiza_C
             //Questions.binarySearch.main();
             //Questions.lower_bound.main();
             //Questions.upper_bound.main();
-            Questions.Number_of_integers.main();
+            //Questions.Number_of_integers.main();
+            //Questions.cutOutPipe.main();   //プログラム処理時間の計測をした
+            Questions.stealEfficiently.main();
         }
     }
 }

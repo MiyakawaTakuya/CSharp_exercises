@@ -5,6 +5,7 @@ using System;
 //220222 スコア100  再チャレンジ 解説を読んで
 //「数列をソートし、l_i 以上の値が最初に現れる位置 lpos と r_i より大きい値が最初に現れる位置 rpos をそれぞれ
 //lower_bound と upper_bound で求め、rpos - lpos を出力すればよいです。」
+//lposは"以上"で値をとる、rposは"より大きい"で値をとる
 
 namespace paiza_C.Questions
 {
