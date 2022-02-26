@@ -142,13 +142,15 @@ namespace paiza_C
             //C050_Re.main();
 
 
-
             //Questions.binarySearch.main();
             //Questions.lower_bound.main();
             //Questions.upper_bound.main();
             //Questions.Number_of_integers.main();
-            //Questions.cutOutPipe.main();   //プログラム処理時間の計測をした
-            Questions.stealEfficiently.main();
+            //Questions.cutOutPipe.main();       //プログラム処理時間の計測をした
+            //Questions.stealEfficiently.main();   //tmp.CopyTo(0, d, 0, k);  配列やListで任意の範囲を合計したり、平均出したり。
+            //Questions.createStruct.main();
+            //Questions.SearchForStruct.main();
+            Questions.EuclidsMethod.main();
         }
     }
 }

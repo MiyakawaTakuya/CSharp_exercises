@@ -25,10 +25,10 @@ namespace paiza_C
         //予算が足りなくなるまでルーチンさせる再帰関数
         internal static int negotiation(int offer)
         {
-            if (offer == 0 && S + 10 > a)return 1;
+            if (offer == 0 && S + 10 > a) return 1;
             else if (offer == 1 && S + 1000 > b) return 0;
 
-            if (offer == 0)  //Aさんの交渉
+            if (offer == 0)  //Aの交渉
             {
                 S += 10;
                 return negotiation(1);
@@ -39,6 +39,16 @@ namespace paiza_C
                 return negotiation(0);
             }
         }
+
+        //予算が足りなくなるまでルーチンさせる再帰関数
+        //internal static int negotiation(int offer, int price)
+        //{
+        //    if (offer == 0 && price + 10 > a) return 1;
+        //    else if (offer == 1 && price + 1000 > b) return 0;
+
+        //    if (offer == 0) return negotiation(1, price + 10);//Aの価格提示
+        //    else return negotiation(0, price + 1000); //Bの価格提示
+        //}
     }
 }
 

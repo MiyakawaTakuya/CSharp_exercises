@@ -1,7 +1,10 @@
-﻿ using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System;
 //効率よく盗もう (paizaランク A 相当)
+//C# 配列やListで任意の範囲を合計したり、平均出したり。
+//https://accelboon.com/tn/c-%E9%85%8D%E5%88%97%E3%82%84list%E3%81%A7%E4%BB%BB%E6%84%8F%E3%81%AE%E7%AF%84%E5%9B%B2%E3%82%92%E5%90%88%E8%A8%88%E3%81%97%E3%81%9F%E3%82%8A%E3%80%81%E5%B9%B3%E5%9D%87%E5%87%BA%E3%81%97%E3%81%9F/
+
 //paiza 博物館に、n 個の財宝が展示されています。各財宝の価値は V_1, V_2, ..., V_n であり、
 //重さは W_1, W_2, ..., W_n です。怪盗であるあなたは、paiza 博物館からちょうど k 個の財宝を盗み出そうとしています。
 //k 個の財宝の平均価値を、(k 個の財宝の価値の和) ÷ (k 個の財宝の重さの和) で定義します。
