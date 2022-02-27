@@ -140,6 +140,7 @@ namespace paiza_C
             //B015.main();
             //A057.main();
             //C050_Re.main();
+            B016.main();
 
 
             //Questions.binarySearch.main();
@@ -150,7 +151,8 @@ namespace paiza_C
             //Questions.stealEfficiently.main();   //tmp.CopyTo(0, d, 0, k);  配列やListで任意の範囲を合計したり、平均出したり。
             //Questions.createStruct.main();
             //Questions.SearchForStruct.main();
-            Questions.EuclidsMethod.main();
+            //Questions.EuclidsMethod.main();
+            //Questions.greatestCommonDivisor.main();
         }
     }
 }

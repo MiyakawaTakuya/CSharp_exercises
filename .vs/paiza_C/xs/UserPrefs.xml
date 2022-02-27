@@ -1,20 +1,15 @@
 ﻿<Properties StartupConfiguration="{50725F40-8F75-483D-9B22-137FB4E1CD3E}|Default">
   <MonoDevelop.Ide.ItemProperties.paiza__C PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="paiza_C/Default.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="paiza_C/B016.cs">
     <Files>
-      <File FileName="paiza_C/Program.cs" Line="152" Column="32" />
+      <File FileName="paiza_C/Program.cs" Line="143" Column="24" />
       <File FileName="paiza_C/default.cs" Line="8" Column="1" />
       <File FileName="paiza_C/B015.cs" Line="1" Column="1" />
-      <File FileName="paiza_C/Questions/binarySearch.cs" Line="1" Column="1" />
-      <File FileName="paiza_C/Questions/lower_bound.cs" Line="28" Column="1" />
-      <File FileName="paiza_C/Questions/upper_bound.cs" Line="20" Column="3" />
-      <File FileName="paiza_C/Questions/Number_of_integers.cs" Line="31" Column="21" />
-      <File FileName="paiza_C/Questions/Number_of_integers (copy).cs" Line="14" Column="3" />
-      <File FileName="paiza_C/Questions/cutOutPipe.cs" Line="28" Column="20" />
-      <File FileName="paiza_C/Questions/stealEfficiently.cs" Line="11" Column="43" />
-      <File FileName="paiza_C/Questions/createStruct.cs" Line="6" Column="70" />
-      <File FileName="paiza_C/Questions/SearchForStruct.cs" Line="41" Column="3" />
-      <File FileName="paiza_C/Questions/EuclidsMethod.cs" Line="1" Column="1" />
+      <File FileName="paiza_C/Questions/EuclidsMethod.cs" Line="11" Column="1" />
+      <File FileName="paiza_C/Questions/greatestCommonDivisor.cs" Line="17" Column="24" />
+      <File FileName="paiza_C/B043_Re.cs" Line="1" Column="1" />
+      <File FileName="paiza_C/B043_Re2.cs" Line="101" Column="32" />
+      <File FileName="paiza_C/B016.cs" Line="4" Column="14" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -22,7 +17,7 @@
           <Node name="paiza_C" expanded="True">
             <Node name="paiza_C" expanded="True">
               <Node name="Questions" expanded="True" />
-              <Node name="Default.cs" selected="True" />
+              <Node name="B016.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -57,6 +52,7 @@
       <Breakpoint file="/Users/miyagawatakuya/G's Task/C#/paiza_C/paiza_C/Questions/Number_of_integers.cs" relfile="paiza_C/Questions/Number_of_integers.cs" line="68" column="1" />
       <Breakpoint file="/Users/miyagawatakuya/G's Task/C#/paiza_C/paiza_C/Questions/stealEfficiently.cs" relfile="paiza_C/Questions/stealEfficiently.cs" line="112" column="1" />
       <Breakpoint file="/Users/miyagawatakuya/G's Task/C#/paiza_C/paiza_C/Questions/SearchForStruct.cs" relfile="paiza_C/Questions/SearchForStruct.cs" line="36" column="1" />
+      <Breakpoint file="/Users/miyagawatakuya/G's Task/C#/paiza_C/paiza_C/Questions/EuclidsMethod.cs" relfile="paiza_C/Questions/EuclidsMethod.cs" line="41" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
