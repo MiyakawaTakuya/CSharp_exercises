@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System;
+//20220303 teamLABコーディングテスト4問目 時間切れで回答できず
 
 //三辺の長さが3，4，5である三角形は直角三角形です。これは「ピタゴラスの定理」から示されます。
 
@@ -17,9 +18,23 @@ namespace paiza_C.Questions
     {
 		private static int n;
 		private static List<int> numbers = new List<int>();
-		private static List<List<int>> patarn = new List<List<int>>();
+		//private static List<List<int>> patarn = new List<List<int>>();
+		private static List<Num> patarn = new List<Num>();
 
-		internal static void main()
+		private class Num
+		{
+			internal Num(int a, int b, int c)  //コンストラクタ
+			{
+				A = a;
+				B = b;
+				C = c;
+			}
+			internal int A { get; set; }
+			internal int B { get; set; }
+			internal int C { get; set; }
+		}
+
+			internal static void main()
 		{
 			n = 8000;
 			int sum = 0;
@@ -27,30 +42,32 @@ namespace paiza_C.Questions
 			{
 				for (int j = 1; j < i + j; j++)
 				{
-					if (i * j > 16000) break;
+					if (i * j > 16000) break;  //底辺*高さ/2が8000を超えたらbreak
 					double c = Math.Sqrt(j * j + i * i);
 					if(c == (int)c)
                     {
 						List<int> numbers = new List<int>() { i,j,(int)c};
 						numbers.Sort();
-						patarn.Add(numbers);
+						//patarn.Add(numbers);
+						patarn.Add(new Num(numbers[0], numbers[1], numbers[2]));
 					}
 				}
 			}
 
-            //出力
-            //foreach(List<int> a in patarn)
-            //         {
-            //	for (int i = 0; i < 3; i++)
-            //	{
-            //		Console.Write(a[i]+" ");
-            //	}
-            //	Console.WriteLine();
-            //}
-            //Console.WriteLine(patarn);
+			//出力
 
-            IEnumerable<List<int>> result1 = patarn.Distinct();
-			Console.WriteLine(result1.Count());  //290が正解かな...？
+			//Console.WriteLine(patarn);
+			//IEnumerable<List<int>> result1 = patarn.Distinct();
+			//IEnumerable<Num> result1 = patarn.Distinct();
+			IEnumerable<Num> result1 = patarn.GroupBy(x => new { x.A, x.B, x.C }).Select(x => x.First());
+
+			foreach (Num a in result1)
+            {
+                Console.Write(a.A + " " + a.B + " "+ a.C);
+                Console.WriteLine();
+            }
+
+            Console.WriteLine(result1.Count());  //145が正解かな...？
 		}
 	}
 }

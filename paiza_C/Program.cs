@@ -156,7 +156,7 @@ namespace paiza_C
             //Questions.teamLAB_AdditionOfDivisors.main();
             //Questions.teamLab_Tribonacci.main();
             //Questions.teamLab_teamLab_SumOfReciprocals.main();
-            //Questions.teamLAB_Pythagoras.main();
+            Questions.teamLAB_Pythagoras.main();
         }
     }
 }

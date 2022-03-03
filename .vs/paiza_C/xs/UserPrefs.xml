@@ -1,14 +1,15 @@
 ﻿<Properties StartupConfiguration="{50725F40-8F75-483D-9B22-137FB4E1CD3E}|Default">
   <MonoDevelop.Ide.ItemProperties.paiza__C PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="paiza_C/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="paiza_C/Questions/teamLAB_Pythagoras.cs">
     <Files>
       <File FileName="paiza_C/Program.cs" Line="159" Column="51" />
-      <File FileName="paiza_C/default.cs" Line="8" Column="1" />
-      <File FileName="paiza_C/B015.cs" />
-      <File FileName="paiza_C/Questions/EuclidsMethod.cs" />
-      <File FileName="paiza_C/Questions/greatestCommonDivisor.cs" />
-      <File FileName="paiza_C/B016.cs" />
-      <File FileName="paiza_C/C053.cs" Line="47" Column="1" />
+      <File FileName="paiza_C/default.cs" Line="17" Column="29" />
+      <File FileName="paiza_C/B015.cs" Line="1" Column="1" />
+      <File FileName="paiza_C/B016.cs" Line="13" Column="1" />
+      <File FileName="paiza_C/Questions/EuclidsMethod.cs" Line="34" Column="39" />
+      <File FileName="paiza_C/Questions/greatestCommonDivisor.cs" Line="27" Column="39" />
+      <File FileName="paiza_C/C053.cs" Line="24" Column="11" />
+      <File FileName="paiza_C/Questions/teamLAB_Pythagoras.cs" Line="52" Column="64" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,7 +17,7 @@
           <Node name="paiza_C" expanded="True">
             <Node name="paiza_C" expanded="True">
               <Node name="Questions" expanded="True">
-                <Node name="teamLabTribonacci.cs" selected="True" />
+                <Node name="teamLAB_Pythagoras.cs" selected="True" />
               </Node>
             </Node>
           </Node>
