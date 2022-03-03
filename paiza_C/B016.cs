@@ -2,6 +2,7 @@
 using System.Linq;
 using System;
 //B016:ここはどこ？
+//220227 受験結果 受験言語： C# 解答時間： 48分33秒 バイト数： 1565 Byte スコア： 95点 正答率100
 
 namespace paiza_C
 {

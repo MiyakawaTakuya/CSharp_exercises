@@ -1,37 +1,31 @@
 ﻿<Properties StartupConfiguration="{50725F40-8F75-483D-9B22-137FB4E1CD3E}|Default">
   <MonoDevelop.Ide.ItemProperties.paiza__C PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="paiza_C/B016.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="paiza_C/Program.cs">
     <Files>
-      <File FileName="paiza_C/Program.cs" Line="143" Column="24" />
+      <File FileName="paiza_C/Program.cs" Line="159" Column="51" />
       <File FileName="paiza_C/default.cs" Line="8" Column="1" />
-      <File FileName="paiza_C/B015.cs" Line="1" Column="1" />
-      <File FileName="paiza_C/Questions/EuclidsMethod.cs" Line="11" Column="1" />
-      <File FileName="paiza_C/Questions/greatestCommonDivisor.cs" Line="17" Column="24" />
-      <File FileName="paiza_C/B043_Re.cs" Line="1" Column="1" />
-      <File FileName="paiza_C/B043_Re2.cs" Line="101" Column="32" />
-      <File FileName="paiza_C/B016.cs" Line="4" Column="14" />
+      <File FileName="paiza_C/B015.cs" />
+      <File FileName="paiza_C/Questions/EuclidsMethod.cs" />
+      <File FileName="paiza_C/Questions/greatestCommonDivisor.cs" />
+      <File FileName="paiza_C/B016.cs" />
+      <File FileName="paiza_C/C053.cs" Line="47" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="paiza_C" expanded="True">
             <Node name="paiza_C" expanded="True">
-              <Node name="Questions" expanded="True" />
-              <Node name="B016.cs" selected="True" />
+              <Node name="Questions" expanded="True">
+                <Node name="teamLabTribonacci.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
         <State>
-          <Value>n</Value>
-          <Value>k</Value>
-          <Value>left</Value>
-          <Value>right</Value>
-          <Value>mid</Value>
-          <Value>W</Value>
-          <Value>V</Value>
-          <Value>User</Value>
+          <Value>numbers</Value>
+          <Value>patarn</Value>
         </State>
       </Pad>
     </Pads>
@@ -53,6 +47,7 @@
       <Breakpoint file="/Users/miyagawatakuya/G's Task/C#/paiza_C/paiza_C/Questions/stealEfficiently.cs" relfile="paiza_C/Questions/stealEfficiently.cs" line="112" column="1" />
       <Breakpoint file="/Users/miyagawatakuya/G's Task/C#/paiza_C/paiza_C/Questions/SearchForStruct.cs" relfile="paiza_C/Questions/SearchForStruct.cs" line="36" column="1" />
       <Breakpoint file="/Users/miyagawatakuya/G's Task/C#/paiza_C/paiza_C/Questions/EuclidsMethod.cs" relfile="paiza_C/Questions/EuclidsMethod.cs" line="41" column="1" />
+      <Breakpoint file="/Users/miyagawatakuya/G's Task/C#/paiza_C/paiza_C/Questions/teamLAB_Pythagoras.cs" relfile="paiza_C/Questions/teamLAB_Pythagoras.cs" line="53" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
