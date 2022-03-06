@@ -22,7 +22,6 @@ namespace paiza_C
 
 		internal static void main()
 		{
-			//入力
 			int N = int.Parse(Console.ReadLine());
 			string[] strArray = Console.ReadLine().Trim().Split(' ');
 			int[] intArray = strArray.Select(int.Parse).ToArray();
@@ -30,7 +29,6 @@ namespace paiza_C
 			{
 			}
 
-			//出力
 			Console.WriteLine();
 		}
 
