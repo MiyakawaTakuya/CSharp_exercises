@@ -141,7 +141,7 @@ namespace paiza_C
             //A057.main();
             //C050_Re.main();
             //B016.main();
-            B017.main();
+            //B017.main();
 
 
             //Questions.binarySearch.main();
@@ -158,6 +158,7 @@ namespace paiza_C
             //Questions.teamLab_Tribonacci.main();
             //Questions.teamLab_teamLab_SumOfReciprocals.main();
             //Questions.teamLAB_Pythagoras.main();
+            Questions.insertSort.main();
         }
     }
 }

@@ -18,7 +18,7 @@ namespace paiza_C
 
 		internal static string yakuAll_ck(char[] cha)
 		{
-            if (four_ck(cha)) return "FourCard";
+			if (four_ck(cha)) return "FourCard";
 			else if (three_ck(cha)) return "ThreeCard";
 			else if (two_ck(cha)) return "TwoPair";
 			else if (one_ck(cha)) return "OnePair";
@@ -28,58 +28,32 @@ namespace paiza_C
 		internal static bool four_ck(char[] cha)
 		{
 			var chaDis = cha.Distinct();
-			if (chaDis.Count() == 1)
-            {
-				return true;
-            }else if(chaDis.Contains('*') && chaDis.Count() == 2)
-            {
-				return true;
-            }
+			if (chaDis.Count() == 1)return true;
+            else if(chaDis.Contains('*') && chaDis.Count() == 2)return true;
 			return false;
 		}
 
 		internal static bool three_ck(char[] cha)
 		{
-			if ((cha[0]== cha[1] && cha[1] == cha[2]) || (cha[1] == cha[2] && cha[2] == cha[3]))
-			{
-				return true;
-			}
 			var chaDis = cha.Distinct();
-			if (chaDis.Contains('*') && chaDis.Count() == 3)
-			{
-				return true;
-			}
+			if ((cha[0]== cha[1] && cha[1] == cha[2]) || (cha[1] == cha[2] && cha[2] == cha[3]))return true;
+			if (chaDis.Contains('*') && chaDis.Count() == 3)return true;
 			return false;
 		}
 
 		internal static bool two_ck(char[] cha)
 		{
 			var chaDis = cha.Distinct();
-            if (chaDis.Contains('*'))
-			{
-				return false;
-			}
-            else if(chaDis.Count() == 2)
-			{
-				return true;
-			}
+            if (chaDis.Contains('*'))return false;
+            else if(chaDis.Count() == 2)return true;
 			return false;
 		}
 		internal static bool one_ck(char[] cha)
 		{
 			var chaDis = cha.Distinct();
-			//if (chaDis.Contains('*'))
-			//{
-			//	return false;
-			//}
-			if (chaDis.Contains('*')&& chaDis.Count() == 4)
-			{
-				return true;
-			}
-			else if (!chaDis.Contains('*') && chaDis.Count() == 3)
-			{
-				return true;
-			}
+			//if (chaDis.Contains('*'))return false;
+			if (chaDis.Contains('*')&& chaDis.Count() == 4) return true;
+			else if (!chaDis.Contains('*') && chaDis.Count() == 3) return true;
 			return false;
 		}
 
