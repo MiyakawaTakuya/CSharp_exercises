@@ -142,6 +142,7 @@ namespace paiza_C
             //C050_Re.main();
             //B016.main();
             //B017.main();
+            B019.main();
 
 
             //Questions.binarySearch.main();
@@ -160,7 +161,7 @@ namespace paiza_C
             //Questions.teamLAB_Pythagoras.main();
             //Questions.insertSort.main();
             //Questions.selectSort.main();
-            Questions.bubbleSort.main();
+            //Questions.bubbleSort.main();
         }
     }
 }

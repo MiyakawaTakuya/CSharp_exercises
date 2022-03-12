@@ -13,19 +13,10 @@ namespace paiza_C
             for (int i = 0 ; i < N ; i++)
             {
                 string A = Console.ReadLine();
-                if (A.Contains(G))
-                {
-                    Console.WriteLine(A);
-                    
-                }else  //対象文字列を含んでいなかった場合
-                {
-                    noCount++;
-                }
+                if (A.Contains(G))Console.WriteLine(A);
+                else noCount++;
             }
-            if(noCount == N)  
-            {
-                Console.WriteLine("None");
-            }
+            if(noCount == N)  Console.WriteLine("None");
         }
     }
 }

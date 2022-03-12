@@ -1,24 +1,24 @@
 ﻿<Properties StartupConfiguration="{50725F40-8F75-483D-9B22-137FB4E1CD3E}|Default">
   <MonoDevelop.Ide.ItemProperties.paiza__C PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="paiza_C/Questions/selectSort.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="paiza_C/B043_Re2.cs">
     <Files>
-      <File FileName="paiza_C/Program.cs" Line="162" Column="41" />
-      <File FileName="paiza_C/default.cs" Line="20" Column="5" />
+      <File FileName="paiza_C/Program.cs" Line="63" Column="33" />
+      <File FileName="paiza_C/default.cs" Line="8" Column="1" />
       <File FileName="paiza_C/B015.cs" />
       <File FileName="paiza_C/B016.cs" />
-      <File FileName="paiza_C/B017.cs" Line="11" Column="9" />
-      <File FileName="paiza_C/Questions/insertSort.cs" Line="48" Column="5" />
-      <File FileName="paiza_C/Questions/selectSort.cs" Line="34" Column="1" />
-      <File FileName="paiza_C/Questions/bubbleSort.cs" Line="1" Column="1" />
+      <File FileName="paiza_C/B017.cs" Line="46" Column="32" />
+      <File FileName="paiza_C/Questions/insertSort.cs" />
+      <File FileName="paiza_C/Questions/selectSort.cs" />
+      <File FileName="paiza_C/Questions/bubbleSort.cs" />
+      <File FileName="paiza_C/B019.cs" Line="26" Column="5" />
+      <File FileName="paiza_C/B043_Re2.cs" Line="95" Column="14" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="paiza_C" expanded="True">
             <Node name="paiza_C" expanded="True">
-              <Node name="Questions" expanded="True">
-                <Node name="selectSort.cs" selected="True" />
-              </Node>
+              <Node name="B043_Re2.cs" selected="True" />
             </Node>
           </Node>
         </State>
