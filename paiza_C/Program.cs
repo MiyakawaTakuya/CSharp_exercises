@@ -142,7 +142,7 @@ namespace paiza_C
             //C050_Re.main();
             //B016.main();
             //B017.main();
-            B019.main();
+            //B019.main();
 
 
             //Questions.binarySearch.main();
@@ -162,6 +162,12 @@ namespace paiza_C
             //Questions.insertSort.main();
             //Questions.selectSort.main();
             //Questions.bubbleSort.main();
+            //Questions.AdjacencyMatrix.main();
+            //Questions.AdjacencyList.main(); 
+            //Questions.IsThereTheEdge.main(); 
+            //Questions.LeafJudgment.main();
+            Questions.TreeCenter.main();
+
         }
     }
 }

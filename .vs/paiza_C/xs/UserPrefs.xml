@@ -1,32 +1,33 @@
 ﻿<Properties StartupConfiguration="{50725F40-8F75-483D-9B22-137FB4E1CD3E}|Default">
   <MonoDevelop.Ide.ItemProperties.paiza__C PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="paiza_C/B043_Re2.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="paiza_C/B017.cs">
     <Files>
       <File FileName="paiza_C/Program.cs" Line="63" Column="33" />
-      <File FileName="paiza_C/default.cs" Line="8" Column="1" />
+      <File FileName="paiza_C/default.cs" Line="23" Column="1" />
       <File FileName="paiza_C/B015.cs" />
       <File FileName="paiza_C/B016.cs" />
       <File FileName="paiza_C/B017.cs" Line="46" Column="32" />
       <File FileName="paiza_C/Questions/insertSort.cs" />
       <File FileName="paiza_C/Questions/selectSort.cs" />
       <File FileName="paiza_C/Questions/bubbleSort.cs" />
-      <File FileName="paiza_C/B019.cs" Line="26" Column="5" />
-      <File FileName="paiza_C/B043_Re2.cs" Line="95" Column="14" />
+      <File FileName="paiza_C/B019.cs" Line="45" Column="20" />
+      <File FileName="paiza_C/Questions/AdjacencyMatrix.cs" Line="18" Column="50" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="paiza_C" expanded="True">
             <Node name="paiza_C" expanded="True">
-              <Node name="B043_Re2.cs" selected="True" />
+              <Node name="Questions" expanded="True" />
+              <Node name="B017.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
         <State>
-          <Value>numbers</Value>
-          <Value>patarn</Value>
+          <Value>sellBol</Value>
+          <Value>reducedArr</Value>
         </State>
       </Pad>
     </Pads>
@@ -49,6 +50,7 @@
       <Breakpoint file="/Users/miyagawatakuya/G's Task/C#/paiza_C/paiza_C/Questions/SearchForStruct.cs" relfile="paiza_C/Questions/SearchForStruct.cs" line="36" column="1" />
       <Breakpoint file="/Users/miyagawatakuya/G's Task/C#/paiza_C/paiza_C/Questions/EuclidsMethod.cs" relfile="paiza_C/Questions/EuclidsMethod.cs" line="41" column="1" />
       <Breakpoint file="/Users/miyagawatakuya/G's Task/C#/paiza_C/paiza_C/Questions/teamLAB_Pythagoras.cs" relfile="paiza_C/Questions/teamLAB_Pythagoras.cs" line="62" column="1" />
+      <Breakpoint file="/Users/miyagawatakuya/G's Task/C#/paiza_C/paiza_C/B019.cs" relfile="paiza_C/B019.cs" line="48" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
