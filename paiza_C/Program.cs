@@ -143,6 +143,7 @@ namespace paiza_C
             //B016.main();
             //B017.main();
             //B019.main();
+            B020.main();
 
 
             //Questions.binarySearch.main();
@@ -166,7 +167,8 @@ namespace paiza_C
             //Questions.AdjacencyList.main(); 
             //Questions.IsThereTheEdge.main(); 
             //Questions.LeafJudgment.main();
-            Questions.TreeCenter.main();
+            //Questions.TreeCenter.main();
+            //zokuzoku.main();
 
         }
     }
