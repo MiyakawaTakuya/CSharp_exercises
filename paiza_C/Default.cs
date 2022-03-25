@@ -9,7 +9,7 @@ namespace paiza_C
 		
 		private class Aa 
 		{
-			internal Aa(int a)  //コンストラクタ
+			internal Aa(int a)  
 			{
 				A = a;
 			}
