@@ -145,7 +145,7 @@ namespace paiza_C
             //B019.main();
             //B020.main();
             //B020_stack.main();
-            B023.main();
+            //B023.main();
 
 
             //Questions.binarySearch.main();
@@ -171,6 +171,8 @@ namespace paiza_C
             //Questions.LeafJudgment.main();
             //Questions.TreeCenter.main();
             //zokuzoku.main();
+            //PrimeNumber.Grothendieck.main();
+            PrimeNumber.Prime.main();
 
         }
     }

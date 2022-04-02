@@ -1,28 +1,33 @@
 ﻿<Properties StartupConfiguration="{50725F40-8F75-483D-9B22-137FB4E1CD3E}|Default">
   <MonoDevelop.Ide.ItemProperties.paiza__C PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="paiza_C/B023.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="paiza_C/PrimeNumber/Prime.cs">
     <Files>
-      <File FileName="paiza_C/Program.cs" Line="143" Column="27" />
-      <File FileName="paiza_C/default.cs" Line="8" Column="3" />
+      <File FileName="paiza_C/Program.cs" Line="175" Column="1" />
+      <File FileName="paiza_C/default.cs" Line="32" Column="4" />
       <File FileName="paiza_C/B015.cs" />
       <File FileName="paiza_C/B016.cs" />
       <File FileName="paiza_C/B017.cs" />
       <File FileName="paiza_C/B019.cs" />
-      <File FileName="paiza_C/B023.cs" Line="36" Column="18" />
+      <File FileName="paiza_C/C057.cs" Line="13" Column="55" />
+      <File FileName="paiza_C/PrimeNumber/Grothendieck.cs" Line="9" Column="1" />
+      <File FileName="paiza_C/PrimeNumber/Prime.cs" Line="9" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="paiza_C" expanded="True">
             <Node name="paiza_C" expanded="True">
-              <Node name="B023.cs" selected="True" />
+              <Node name="PrimeNumber" expanded="True">
+                <Node name="Prime.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
         <State>
-          <Value>sarfList</Value>
+          <Value>Num</Value>
+          <Value>newNum</Value>
         </State>
       </Pad>
     </Pads>

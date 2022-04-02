@@ -5,35 +5,52 @@ namespace paiza_C
 {
     public class C057
     {
-        internal static void test()
+        //リファクタリング 220401
+        internal static void main()
         {
             string[] ArrayData = Console.ReadLine().Trim().Split(' ');
             int T = int.Parse(ArrayData[0]);  //T秒間風がふく
             int x = int.Parse(ArrayData[1]);  //最初のx座標
             int y = int.Parse(ArrayData[2]);  //最初のx座標
             int maxX = x; //最大値用の変数
-
-            while (y > 0)
+            for (int i = 1; i <= T; i++)
             {
-                for (int i = 1; i <= T; i++)
-                {
-                    string[] ArrayData_xy = Console.ReadLine().Trim().Split(' ');
-                    x += int.Parse(ArrayData_xy[0]);
-                    y += int.Parse(ArrayData_xy[1]);
-                    if (maxX < x)  //最大値を適宜書き換え
-                    {
-                        maxX = x;
-                    }
-                    if (y <= 0) //地面に着地したらbreakで抜け出す
-                    {
-                        break;
-                    }
-                }
-                break; //風が吹き終わったらbreakで抜け出す
+                string[] ArrayData_xy = Console.ReadLine().Trim().Split(' ');
+                x += int.Parse(ArrayData_xy[0]);
+                if (maxX < x) maxX = x;   //最大値を適宜書き換え
+                y += int.Parse(ArrayData_xy[1]);
+                if (y <= 0) break;
             }
             Console.WriteLine(maxX);
-
         }
+
+        //internal static void test()
+        //{
+        //    string[] ArrayData = Console.ReadLine().Trim().Split(' ');
+        //    int T = int.Parse(ArrayData[0]);  //T秒間風がふく
+        //    int x = int.Parse(ArrayData[1]);  //最初のx座標
+        //    int y = int.Parse(ArrayData[2]);  //最初のx座標
+        //    int maxX = x; //最大値用の変数
+        //    while (y > 0)
+        //    {
+        //        for (int i = 1; i <= T; i++)
+        //        {
+        //            string[] ArrayData_xy = Console.ReadLine().Trim().Split(' ');
+        //            x += int.Parse(ArrayData_xy[0]);
+        //            y += int.Parse(ArrayData_xy[1]);
+        //            if (maxX < x)  //最大値を適宜書き換え
+        //            {
+        //                maxX = x;
+        //            }
+        //            if (y <= 0) //地面に着地したらbreakで抜け出す
+        //            {
+        //                break;
+        //            }
+        //        }
+        //        break; //風が吹き終わったらbreakで抜け出す
+        //    }
+        //    Console.WriteLine(maxX);
+        //}
     }
 }
 

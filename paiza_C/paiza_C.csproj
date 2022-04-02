@@ -10,9 +10,11 @@
   </PropertyGroup>
   <ItemGroup>
     <None Remove="Questions\" />
+    <None Remove="PrimeNumber\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Questions\" />
+    <Folder Include="PrimeNumber\" />
   </ItemGroup>
   <ProjectExtensions>
     <MonoDevelop>
