@@ -10,28 +10,37 @@ namespace paiza_C
 {
 	public class B024
 	{
-		private static Dictionary<int, int> onLine = new Dictionary<int, int>();
 		internal static void main()
 		{
-			////全体の1/4の円形で考える. xもyも正で扱える第一象限で考える。個数を出して最後に４倍して終わり。
-			//円周が乗っかっているピクセルを算出していく x^2 + y^2 = r^2
-			//x=1,x=2...x=int(r),x=r.でみていき接する点の右のピクセルをListに格納していく. 
 			double R = double.Parse(Console.ReadLine());
 			double R_R = R * R;
 			int R_ceil = (int)Math.Ceiling(R);
-			for (int x = 0; x < R_ceil; x++)
-			{
-				double y = Math.Sqrt(R_R - x * x);
-				onLine[x + 1] = (int)Math.Ceiling(y);
-			}
-			int sum = 0;
-			//円周上のピクセルを元に充填していく
-			for (int x = 1; x <= R_ceil; x++) sum += onLine[x];
-
-			//最後に合計値を４倍
-			Console.WriteLine(sum * 4);
+		    int sum = 0;
+			for (int x = 1; x <= R_ceil; x++) sum += (int)Math.Ceiling(Math.Sqrt(R_R - x * x)); //円周上のピクセルを元に充填していく
+			Console.WriteLine(sum * 4); //最後に合計値を４倍
 		}
 	}
+
+	//public class B024
+	//{
+	//	internal static void main()
+	//	{
+	//		////全体の1/4の円形で考える. xもyも正で扱える第一象限で考える。個数を出して最後に４倍して終わり。
+	//		//円周が乗っかっているピクセルを算出していく x^2 + y^2 = r^2
+	//		//x=1,x=2...x=int(r),x=r.でみていき接する点の右のピクセルをListに格納していく. 
+	//		double R = double.Parse(Console.ReadLine());
+	//		double R_R = R * R;
+	//		int R_ceil = (int)Math.Ceiling(R);
+	//		Dictionary<int, int> onLine = new Dictionary<int, int>();
+	//		int sum = 0;
+	//		for (int x = 1; x <= R_ceil; x++)
+	//		{
+	//			onLine[x] = (int)Math.Ceiling(Math.Sqrt(R_R - x * x));
+	//			sum += onLine[x]; //円周上のピクセルを元に充填していく
+	//		}
+	//		Console.WriteLine(sum * 4); //最後に合計値を４倍
+	//	}
+	//}
 
 	//   public class B024
 	//   {
