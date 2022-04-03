@@ -2,14 +2,14 @@
   <MonoDevelop.Ide.ItemProperties.paiza__C PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="paiza_C/B024.cs">
     <Files>
-      <File FileName="paiza_C/Program.cs" Line="174" Column="47" />
-      <File FileName="paiza_C/default.cs" Line="14" Column="11" />
+      <File FileName="paiza_C/Program.cs" Line="149" Column="25" />
+      <File FileName="paiza_C/default.cs" />
       <File FileName="paiza_C/B015.cs" />
       <File FileName="paiza_C/B016.cs" />
       <File FileName="paiza_C/B017.cs" />
       <File FileName="paiza_C/B019.cs" />
       <File FileName="paiza_C/C057.cs" />
-      <File FileName="paiza_C/B024.cs" Line="32" Column="3" />
+      <File FileName="paiza_C/B024.cs" Line="28" Column="5" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -23,8 +23,8 @@
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
         <State>
-          <Value>Num</Value>
-          <Value>newNum</Value>
+          <Value>pixels</Value>
+          <Value>filled</Value>
         </State>
       </Pad>
     </Pads>
