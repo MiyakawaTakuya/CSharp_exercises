@@ -11,10 +11,12 @@
   <ItemGroup>
     <None Remove="Questions\" />
     <None Remove="PrimeNumber\" />
+    <None Remove="LeetCode\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Questions\" />
     <Folder Include="PrimeNumber\" />
+    <Folder Include="LeetCode\" />
   </ItemGroup>
   <ProjectExtensions>
     <MonoDevelop>

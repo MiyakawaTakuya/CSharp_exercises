@@ -146,7 +146,7 @@ namespace paiza_C
             //B020.main();
             //B020_stack.main();
             //B023.main();
-            B024.main();
+            //B024.main();
 
 
             //Questions.binarySearch.main();
@@ -175,6 +175,8 @@ namespace paiza_C
             //PrimeNumber.Grothendieck.main();
             //PrimeNumber.Prime.main();
 
+
+            LeetCode.TwoSum.main();
         }
     }
 }
