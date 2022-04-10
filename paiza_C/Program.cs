@@ -147,6 +147,7 @@ namespace paiza_C
             //B020_stack.main();
             //B023.main();
             //B024.main();
+            B025.main();
 
 
             //Questions.binarySearch.main();
@@ -176,7 +177,7 @@ namespace paiza_C
             //PrimeNumber.Prime.main();
 
 
-            LeetCode.TwoSum.main();
+            //LeetCode.TwoSum.main();
         }
     }
 }
