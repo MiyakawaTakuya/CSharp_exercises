@@ -147,7 +147,7 @@ namespace paiza_C
             //B020_stack.main();
             //B023.main();
             //B024.main();
-            B025.main();
+            //B025.main();
 
 
             //Questions.binarySearch.main();
@@ -175,6 +175,7 @@ namespace paiza_C
             //zokuzoku.main();
             //PrimeNumber.Grothendieck.main();
             //PrimeNumber.Prime.main();
+            Questions.PxDT_BMIDisplayDietApp.main();
 
 
             //LeetCode.TwoSum.main();

@@ -34,7 +34,7 @@ namespace paiza_C.Questions
 			internal int C { get; set; }
 		}
 
-			internal static void main()
+		internal static void main()
 		{
 			n = 8000;
 			int sum = 0;

@@ -58,7 +58,6 @@ namespace paiza_C.Questions
 			//Console.WriteLine("計算にかかった時間は、" + $"　{ts.Seconds}" + "."+ $"　{ts.Milliseconds}"+"秒です");
 			Console.WriteLine("計算にかかった時間は、" + $"{ts.ToString(@"ss\.ffffff")}" + "です");
 			Console.WriteLine(left.ToString("0.0000000000"));
-
 		}
 	}
 }
