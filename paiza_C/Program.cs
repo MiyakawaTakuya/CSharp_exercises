@@ -175,7 +175,8 @@ namespace paiza_C
             //zokuzoku.main();
             //PrimeNumber.Grothendieck.main();
             //PrimeNumber.Prime.main();
-            Questions.PxDT_BMIDisplayDietApp.main();
+            //Questions.PxDT_BMIDisplayDietApp.main();
+            Questions.PxDT_Anpanchi.main(); 
 
 
             //LeetCode.TwoSum.main();
