@@ -176,7 +176,7 @@ namespace paiza_C
             //PrimeNumber.Grothendieck.main();
             //PrimeNumber.Prime.main();
             //Questions.PxDT_BMIDisplayDietApp.main();
-            Questions.PxDT_Anpanchi.main(); 
+            Questions.PxDT_Anpanchi2.main(); 
 
 
             //LeetCode.TwoSum.main();

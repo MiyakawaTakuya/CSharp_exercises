@@ -11,10 +11,8 @@ namespace paiza_C
 		private static string line;
 		private static int pos0Sum, pos1Sum, pos2Sum, pos3Sum;
 
-
 		internal static void main()
 		{
-			//入力
 			int N = int.Parse(Console.ReadLine());
 			for (int i = 0; i < N; i++)
 			{
@@ -24,20 +22,13 @@ namespace paiza_C
 				pos2Sum += int.Parse(line.Substring(2, 3));
 				pos3Sum += int.Parse(line.Substring(3));
 			}
-	        //出力
 			Console.WriteLine(toZeroOne(pos0Sum) + toZeroOne(pos1Sum) + toZeroOne(pos2Sum) + toZeroOne(pos3Sum));
 		}
 
 		internal static string toZeroOne(int a)
 		{
-			if(a % 2 == 0|| a == 0)
-            {
-				return "0";
-			}
-			else if (a % 2 == 1 || a == 1)
-            {
-				return "1";
-			}
+			if(a % 2 == 0|| a == 0) return "0";
+			else if (a % 2 == 1 || a == 1) return "1";
 			return "";
 		}
 	}

@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{50725F40-8F75-483D-9B22-137FB4E1CD3E}|Default">
   <MonoDevelop.Ide.ItemProperties.paiza__C PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="paiza_C/Questions/cutOutPipe.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="paiza_C/B026.cs">
     <Files>
       <File FileName="paiza_C/Program.cs" Line="176" Column="47" />
-      <File FileName="paiza_C/default.cs" Line="8" Column="3" />
+      <File FileName="paiza_C/default.cs" />
       <File FileName="paiza_C/B025.cs" />
       <File FileName="paiza_C/Questions/teamLab_Tribonacci.cs" />
       <File FileName="paiza_C/Questions/teamLAB_Pythagoras.cs" />
@@ -11,7 +11,9 @@
       <File FileName="paiza_C/Questions/teamLAB_AdditionOfDivisors.cs" />
       <File FileName="paiza_C/Questions/lower_bound.cs" />
       <File FileName="paiza_C/Questions/greatestCommonDivisor.cs" />
-      <File FileName="paiza_C/Questions/cutOutPipe.cs" Line="1" Column="1" />
+      <File FileName="paiza_C/Questions/cutOutPipe.cs" />
+      <File FileName="paiza_C/C059.cs" Line="19" Column="31" />
+      <File FileName="paiza_C/B026.cs" Line="4" Column="13" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -19,9 +21,7 @@
           <Node name="paiza_C" expanded="True">
             <Node name="paiza_C" expanded="True">
               <Node name="LeetCode" expanded="True" />
-              <Node name="Questions" expanded="True">
-                <Node name="cutOutPipe.cs" selected="True" />
-              </Node>
+              <Node name="B026.cs" selected="True" />
             </Node>
           </Node>
         </State>
