@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{50725F40-8F75-483D-9B22-137FB4E1CD3E}|Default">
   <MonoDevelop.Ide.ItemProperties.paiza__C PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="paiza_C/B026.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="paiza_C/Questions/PxDT_Anpanchi.cs">
     <Files>
-      <File FileName="paiza_C/Program.cs" Line="176" Column="47" />
-      <File FileName="paiza_C/default.cs" />
+      <File FileName="paiza_C/Program.cs" Line="150" Column="27" />
+      <File FileName="paiza_C/default.cs" Line="8" Column="1" />
       <File FileName="paiza_C/B025.cs" />
       <File FileName="paiza_C/Questions/teamLab_Tribonacci.cs" />
       <File FileName="paiza_C/Questions/teamLAB_Pythagoras.cs" />
@@ -13,7 +13,8 @@
       <File FileName="paiza_C/Questions/greatestCommonDivisor.cs" />
       <File FileName="paiza_C/Questions/cutOutPipe.cs" />
       <File FileName="paiza_C/C059.cs" Line="19" Column="31" />
-      <File FileName="paiza_C/B026.cs" Line="4" Column="13" />
+      <File FileName="paiza_C/B026.cs" Line="41" Column="5" />
+      <File FileName="paiza_C/Questions/PxDT_Anpanchi.cs" Line="41" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -21,7 +22,9 @@
           <Node name="paiza_C" expanded="True">
             <Node name="paiza_C" expanded="True">
               <Node name="LeetCode" expanded="True" />
-              <Node name="B026.cs" selected="True" />
+              <Node name="Questions" expanded="True">
+                <Node name="PxDT_Anpanchi.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
@@ -57,7 +60,7 @@
       <Breakpoint file="/Users/miyagawatakuya/G's Task/C#/paiza_C/paiza_C/B020.cs" relfile="paiza_C/B020.cs" line="32" column="1" />
       <Breakpoint file="/Users/miyagawatakuya/G's Task/C#/paiza_C/paiza_C/B025.cs" relfile="paiza_C/B025.cs" line="51" column="1" />
       <Breakpoint file="/Users/miyagawatakuya/G's Task/C#/paiza_C/paiza_C/Questions/PxDT_BMIDisplayDietApp.cs" relfile="paiza_C/Questions/PxDT_BMIDisplayDietApp.cs" line="22" column="1" />
-      <Breakpoint file="/Users/miyagawatakuya/G's Task/C#/paiza_C/paiza_C/Questions/PxDT_Anpanchi.cs" relfile="paiza_C/Questions/PxDT_Anpanchi.cs" line="55" column="1" />
+      <Breakpoint file="/Users/miyagawatakuya/G's Task/C#/paiza_C/paiza_C/B026.cs" relfile="paiza_C/B026.cs" line="43" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
