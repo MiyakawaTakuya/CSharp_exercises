@@ -149,7 +149,8 @@ namespace paiza_C
             //B024.main();
             //B025.main();
             //B026.main();
-            B028.main();
+            //B028.main();
+            C061_Ano2.main();
 
 
             //Questions.binarySearch.main();
