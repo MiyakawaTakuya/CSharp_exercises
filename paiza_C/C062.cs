@@ -6,33 +6,47 @@ namespace paiza_C
 {
     public class C062
     {
-		//フィールド
-		private static int T,count;
-		private static List<string> food = new List<string>();
-
 		internal static void main()
 		{
-			//入力
-			T = int.Parse(Console.ReadLine());
-            for (int i = 0; i < T; i++)
-            {
-				food.Add(Console.ReadLine());
+			int T = int.Parse(Console.ReadLine());
+			int eatCount = 0;
+			int moguCount = 0; 
+			for (int i = 0; i < T; i++)
+			{
+				string neta = Console.ReadLine();
+				if (moguCount > 0) moguCount++;
+				if (neta == "melon" && moguCount == 0) {
+					eatCount++;
+					moguCount++;
+					}
+				if (moguCount == 11) moguCount = 0; //moguCount reset
 			}
-            //melonが出たらカウント
-            for (int i = 0; i < T; i++)
-            {
-                if (food[i] == "melon")
-                {
-                    i += 10;
-                    count++;
-                }
-            }
-
-            Console.WriteLine(count);
+			Console.WriteLine(eatCount);
 		}
+
+		//private static List<string> food = new List<string>();
+		//internal static void main()
+		//{
+		//	//入力
+		//	T = int.Parse(Console.ReadLine());
+		//          for (int i = 0; i < T; i++)
+		//          {
+		//		food.Add(Console.ReadLine());
+		//	}
+		//          //melonが出たらカウント
+		//          for (int i = 0; i < T; i++)
+		//          {
+		//              if (food[i] == "melon")
+		//              {
+		//                  i += 10;
+		//                  count++;
+		//              }
+		//          }
+		//          Console.WriteLine(count);
+		//}
 	}
 }
-//受験結果 受験言語： C# 解答時間： 33分40秒 バイト数： 610 Byte スコア： 83点  220106
+//受験結果 受験言語： C# 解答時間： 33分40秒 バイト数： 610 Byte スコア： 83点  220106  当初時間かかってるな...
 //T
 //n_1
 //...
